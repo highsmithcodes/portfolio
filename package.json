@@ -1,6 +1,5 @@
 {
   "name": "portfoliov2",
-  "homepage": "https://veehighsmith.github.io/Portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
