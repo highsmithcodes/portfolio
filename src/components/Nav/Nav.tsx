@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom'
-import { HashRouter as Router, Route, Link, NavLink } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Link, NavLink } from 'react-router-dom';
 import { TransitionGroup, CSSTransition } from "react-transition-group";
 import Header from '../Pages/Header';
 import About from '../Pages/About';

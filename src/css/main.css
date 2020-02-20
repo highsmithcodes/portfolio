@@ -6539,7 +6539,8 @@ body {
     font-size: 40px;
     font-weight: bold; }
   body .hero-body {
-    position: relative; }
+    position: relative;
+    overflow: hidden; }
     body .hero-body .columns {
       justify-content: center; }
     body .hero-body#home:after {
@@ -6752,20 +6753,25 @@ body {
               margin: 5px;
               color: #CE2372; }
         body .hero-body#portfolio #gallery .column .card:hover .card-description {
-          animation-name: slideInDown;
-          animation-duration: 600ms; }
+          animation-name: slideDown;
+          -webkit-animation-name: slideDown;
+          animation-duration: .5s;
+          -webkit-animation-duration: .5s;
+          animation-timing-function: ease;
+          -webkit-animation-timing-function: ease;
+          visibility: visible !important; }
 
-@keyframes slideInDown {
-  from {
-    top: 0;
-    visibility: hidden;
-    opacity: 80%;
-    transform: translate3d(0, -100%, 0); }
-  to {
-    top: 0;
-    opacity: 100%;
-    transform: translate3d(0, 0, 0);
-    visibility: visible; } }
+@keyframes slideDown {
+  0% {
+    transform: translateY(-100%); }
+  100% {
+    transform: translateY(0%); } }
+
+@-webkit-keyframes slideDown {
+  0% {
+    -webkit-transform: translateY(-100%); }
+  100% {
+    -webkit-transform: translateY(0%); } }
   body .column.is-half,
   body .column.is-two-thirds,
   body .column.is-three-quarters {
@@ -6831,7 +6837,8 @@ footer {
   .hero.is-fullheight .page {
     position: relative;
     width: 100%;
-    flex: 1 1 auto; }
+    flex: 1 1 auto;
+    overflow: hidden; }
   .fixed-nav .navbar-brand {
     display: none; } }
 
@@ -6947,6 +6954,9 @@ footer {
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%); } }
+
+.column {
+  overflow: hidden; }
 
 .column.is-half {
   margin: 0 auto;
