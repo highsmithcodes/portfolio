@@ -9,9 +9,9 @@ const Header: React.FC = () => {
                 <div className="columns is-mobile">
                     <div className="column is-two-thirds landing">
                         <h1>Hey (<img className="hand" src={hand}></img>) <br />
-                            <span>I'm Veronica,</span><br /> I develop websites/apps.
+                            <span>I'm Veronica,</span><br /> I develop websites and web applications.
                         </h1>
-                        <p> Front End | Back End | Full-Stack </p>
+                        <p> Front End | Back End </p>
                     </div>
                 </div>
             </div>
