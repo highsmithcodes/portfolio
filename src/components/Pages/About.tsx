@@ -10,7 +10,7 @@ const About: React.FC = () => {
     return (
         <div className="hero-body" id="about">
             <div className="column">
-                <Router>
+                <Router basename="/portfolio">
                     <div>
                         <div className="column is-mobile is-three-quarters">
                             <div className="columns about">

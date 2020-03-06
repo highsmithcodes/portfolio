@@ -15,7 +15,7 @@ const routes = [
 
 const Menu: React.FC = (props) => {
     return (
-        <Router>
+        <Router basename="/portfolio" >
             <>
                 <nav role="navigation" aria-label="main navigation">
                     <div className="mobile-nav">
