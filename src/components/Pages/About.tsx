@@ -15,13 +15,13 @@ const About: React.FC = () => {
                         <div className="column is-mobile is-three-quarters">
                             <div className="columns about">
 
-                                <NavLink className="column is-half" exact activeClassName='active' to="/personal">
-                                    <h2 className="navbar-item underline">Personal</h2>
+                                <NavLink className="column is-half" exact activeClassName='active' to="/professional">
+                                    <h2 className="navbar-item underline">Professional</h2>
                                 </NavLink>
 
 
-                                <NavLink className="column is-half" activeClassName='active' to="/professional">
-                                    <h2 className="navbar-item underline">Professional</h2>
+                                <NavLink className="column is-half" activeClassName='active' to="/personal">
+                                    <h2 className="navbar-item underline">Personal</h2>
                                 </NavLink>
 
                             </div>
@@ -31,13 +31,13 @@ const About: React.FC = () => {
                         renders the first one that matches the current URL. */}
                         <div className="column is-mobile is-three-quarters">
                             <Switch>
-                                <Route path="/personal">
-                                    <Personal />
-                                </Route>
                                 <Route path="/professional">
                                     <Professional />
                                 </Route>
-                                <Redirect from="/" to="/personal" />
+                                <Route path="/personal">
+                                    <Personal />
+                                </Route>
+                                <Redirect from="/" to="/professional" />
                             </Switch>
                         </div>
                     </div>

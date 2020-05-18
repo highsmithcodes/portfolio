@@ -11,7 +11,7 @@ const Header: React.FC = () => {
                         <h1>Hey (<img className="hand" src={hand}></img>) <br />
                             <span>I'm Veronica,</span><br /> I develop websites and web apps.
                         </h1>
-                        <p> Front End | Back End </p>
+                        <p> Full Stack Developer </p>
                     </div>
                 </div>
             </div>
