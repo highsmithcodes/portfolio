@@ -65,9 +65,9 @@ const Menu: React.FC = (props) => {
                             </ul>
                             <ul className="contact">
                                 <li><a href="https://www.linkedin.com/in/veronica-highsmith-07a04787/" target="_blank"><i className="fab fa-linkedin-in"></i></a></li>
-                                <li><a href="https://github.com/veehighsmith" target="_blank"><i className="fab fa-github"></i></a></li>
-                                <li><a href="https://codepen.io/123Fives" target="_blank"><i className="fas fa-code"></i></a></li>
-                                <li><a href="mailto: veehighsmith@gmail.com" target="_blank"><i className="fas fa-at"></i></a></li>
+                                <li><a href="https://github.com/ezrahighsmith" target="_blank"><i className="fab fa-github"></i></a></li>
+                                <li><a href="https://codepen.io/ezrahighsmith" target="_blank"><i className="fas fa-code"></i></a></li>
+                                <li><a href="mailto: ezrahighsmith@gmail.com" target="_blank"><i className="fas fa-at"></i></a></li>
                             </ul>
                         </div>
                     </div>
