@@ -7,7 +7,7 @@ const Personal: React.FC = () => {
     return (
         <div className="content about">
             <h2>Who am I?</h2>
-            <p>I'm 25 years old, currently listening to Nina Simone as I write this bio. I spend most of my free time learning new tech skills, spending quality time with family, and practicing guitar.</p>
+            <p>Nice to meet you, my name is Ezra, I am 26 years old and I've been in tech for 6 years. When I'm not on my computer I spend most of my free time playing video games or re-reading some of my favorite graphic novels</p>
             <ul>
                 <li>Creating <a href="https://soundcloud.com/bridebrides" target="blank">music</a></li>
                 <li>Watching claymation movies</li>

@@ -6,7 +6,7 @@ const Professional: React.FC = () => {
     return (
         <div className="content about">
             <h2>What have I been doing in Tech?</h2>
-            <p>I’m an full stack developer with significant experience with classic backend stacks and front-end frameworks including React, Typescript, Angular, Vue, and WordPress. I enjoy using my obsessive attention to detail, my unequivocal love for making things, and my mission-driven work ethic to create great websites and applications. </p>
+            <p>I’m an full stack developer with significant experience in  React, Typescript, Angular, Vue and PHP. </p>
             {/* <p>In my career I strive to find work that puts focus on accessibility and tech for social good. With a passion for WCAG compliance/mobile first/TDD sites - I have obtained the skills listed below.</p> */}
             <ul>
                 <li>Javascript/Typescript/React/jQuery/PHP/VueJS</li>
