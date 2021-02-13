@@ -1,30 +1,30 @@
 {
   "files": {
-    "main.css": "/static/css/main.46a0fbfb.chunk.css",
-    "main.js": "/static/js/main.501ffc9e.chunk.js",
-    "main.js.map": "/static/js/main.501ffc9e.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.d6828ab7.js",
-    "runtime-main.js.map": "/static/js/runtime-main.d6828ab7.js.map",
-    "static/js/2.4a2b2070.chunk.js": "/static/js/2.4a2b2070.chunk.js",
-    "static/js/2.4a2b2070.chunk.js.map": "/static/js/2.4a2b2070.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.e96b5f08d47a969cd4500942803d39a6.js": "/precache-manifest.e96b5f08d47a969cd4500942803d39a6.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.46a0fbfb.chunk.css.map": "/static/css/main.46a0fbfb.chunk.css.map",
-    "static/js/2.4a2b2070.chunk.js.LICENSE.txt": "/static/js/2.4a2b2070.chunk.js.LICENSE.txt",
-    "static/media/chipotle.png": "/static/media/chipotle.50d7d4aa.png",
-    "static/media/dish.png": "/static/media/dish.c3d022de.png",
-    "static/media/hand.png": "/static/media/hand.dd27b264.png",
-    "static/media/ibm.png": "/static/media/ibm.edc35518.png",
-    "static/media/lifetime.png": "/static/media/lifetime.651305c2.png",
-    "static/media/purina.png": "/static/media/purina.3f11c22e.png",
-    "static/media/skrillex.png": "/static/media/skrillex.794e335c.png",
-    "static/media/vee_logo.png": "/static/media/vee_logo.40811ea1.png"
+    "main.css": "/portfolio/static/css/main.46a0fbfb.chunk.css",
+    "main.js": "/portfolio/static/js/main.cd70f632.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.cd70f632.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.31a18050.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.31a18050.js.map",
+    "static/js/2.4a2b2070.chunk.js": "/portfolio/static/js/2.4a2b2070.chunk.js",
+    "static/js/2.4a2b2070.chunk.js.map": "/portfolio/static/js/2.4a2b2070.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "precache-manifest.78a341b70e6d504bca07fa32c3f3587f.js": "/portfolio/precache-manifest.78a341b70e6d504bca07fa32c3f3587f.js",
+    "service-worker.js": "/portfolio/service-worker.js",
+    "static/css/main.46a0fbfb.chunk.css.map": "/portfolio/static/css/main.46a0fbfb.chunk.css.map",
+    "static/js/2.4a2b2070.chunk.js.LICENSE.txt": "/portfolio/static/js/2.4a2b2070.chunk.js.LICENSE.txt",
+    "static/media/chipotle.png": "/portfolio/static/media/chipotle.50d7d4aa.png",
+    "static/media/dish.png": "/portfolio/static/media/dish.c3d022de.png",
+    "static/media/hand.png": "/portfolio/static/media/hand.dd27b264.png",
+    "static/media/ibm.png": "/portfolio/static/media/ibm.edc35518.png",
+    "static/media/lifetime.png": "/portfolio/static/media/lifetime.651305c2.png",
+    "static/media/purina.png": "/portfolio/static/media/purina.3f11c22e.png",
+    "static/media/skrillex.png": "/portfolio/static/media/skrillex.794e335c.png",
+    "static/media/vee_logo.png": "/portfolio/static/media/vee_logo.40811ea1.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.d6828ab7.js",
+    "static/js/runtime-main.31a18050.js",
     "static/js/2.4a2b2070.chunk.js",
     "static/css/main.46a0fbfb.chunk.css",
-    "static/js/main.501ffc9e.chunk.js"
+    "static/js/main.cd70f632.chunk.js"
   ]
 }
