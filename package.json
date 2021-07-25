@@ -1,0 +1,52 @@
+{
+  "homepage": "https://highsmithcodes.github.io/portfolio/",
+  "name": "portfoliov2",
+  "version": "0.1.0",
+  "private": false,
+  "dependencies": {
+    "@babel/runtime": "^7.9.6",
+    "@types/jest": "24.0.19",
+    "@types/node": "12.11.2",
+    "@types/react": "16.9.9",
+    "@types/react-dom": "16.9.2",
+    "@types/react-router-dom": "^5.1.5",
+    "@types/react-transition-group": "^4.2.4",
+    "mime-types": "^2.1.27",
+    "npm": "^6.14.8",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "^4.0.3",
+    "react-transition-group": "^4.4.1"
+  },
+  "scripts": {
+    "start": "react-scripts start && npm run css-watch ",
+    "build": "react-scripts build && node-sass --omit-source-map-url ./src/sass/main.scss ./src/css/main.css",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "css-watch": "node-sass --omit-source-map-url ./src/sass/main.scss ./src/css/main.css --watch"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "bulma": "^0.8.2",
+    "gh-pages": "^2.2.0",
+    "node-sass": "^6.0.1",
+    "typescript": "^4.3.5"
+  }
+}
