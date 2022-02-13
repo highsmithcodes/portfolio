@@ -3456,8 +3456,6 @@
   "version" "1.0.3"
 
 "ci-info@^1.5.0":
-  "integrity" "sha512-vsGdkwSCDpWmP80ncATX7iea5DWQemg1UgCW5J8tqjU3lYw4FBYuj89J0CTVomA7BEfvSZd84GmHko+MxFQU2A=="
-  "resolved" "https://registry.npmjs.org/ci-info/-/ci-info-1.6.0.tgz"
   "version" "1.6.0"
 
 "ci-info@^2.0.0":
@@ -5834,8 +5832,6 @@
   "version" "4.0.1"
 
 "get-stream@^3.0.0":
-  "integrity" "sha1-jpQ9E1jcN1VQVOy+LtsFqhdO3hQ="
-  "resolved" "https://registry.npmjs.org/get-stream/-/get-stream-3.0.0.tgz"
   "version" "3.0.0"
 
 "get-stream@^4.0.0", "get-stream@^4.1.0":
@@ -8111,8 +8107,6 @@
   "version" "1.0.1"
 
 "lru-cache@^4.0.1":
-  "integrity" "sha512-sWZlbEP2OsHNkXrMl5GYk/jKk70MBng6UU4YI/qGDYbgf6YbP4EvmqISbXCoJiRKs+1bSpFHVgQxvJ17F2li5g=="
-  "resolved" "https://registry.npmjs.org/lru-cache/-/lru-cache-4.1.5.tgz"
   "version" "4.1.5"
   dependencies:
     "pseudomap" "^1.0.2"
@@ -12128,8 +12122,6 @@
     "strip-ansi" "^3.0.0"
 
 "string-width@^1.0.2":
-  "integrity" "sha1-EYvfW4zcUaKn5w0hHgfisLmxB9M="
-  "resolved" "https://registry.npmjs.org/string-width/-/string-width-1.0.2.tgz"
   "version" "1.0.2"
   dependencies:
     "code-point-at" "^1.0.0"
@@ -12221,8 +12213,6 @@
     "ansi-regex" "^2.0.0"
 
 "strip-ansi@^4.0.0":
-  "integrity" "sha1-qEeQIusaw2iocTibY1JixQXuNo8="
-  "resolved" "https://registry.npmjs.org/strip-ansi/-/strip-ansi-4.0.0.tgz"
   "version" "4.0.0"
   dependencies:
     "ansi-regex" "^3.0.0"

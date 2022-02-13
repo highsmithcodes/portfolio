@@ -13,13 +13,13 @@
 $font-stack: 'Quicksand', sans-serif;
 
 // Colors
-$gold: #b38401;
+$green: #b38401;
 $orange: #ee5c1b;
-$dark_black: #343438;
+$dark_grey: #343438;
 $light_black:#57575a;
 $white: #f7f8f3 ;
 $light_grey: #F2C9C9;
-
+$green: #00f5a2;
 
 // Sizes
 $small: 600px;
@@ -39,7 +39,7 @@ $medium: 900px;
 
 
 body {
-    background: $white;
+    background: #212121;
     font: 100% $font-stack;
 
     h1,
@@ -47,7 +47,7 @@ body {
     h3,
     h4,
     p {
-        color: $dark_black;
+        color: $white;
     }
 
     p{
@@ -83,9 +83,9 @@ body {
         &:after{
             content:'';
             position: absolute;
-            width: 120px;
+            width: auto;
             height: 4px;
-            background-color: $gold;
+            background-color: $green;
             left: 0;
             top: 50%;
             transform: translateY(-50%);
@@ -113,11 +113,10 @@ body {
     }
 
     .pink{
-        background-color: $gold;
-        color:$white;
+        background-color: $green;
+        color:$dark_grey;
         border: none;
         padding: 30px 50px;
-        color: $white !important;
 
         &:after {
             display: none !important;
@@ -127,6 +126,13 @@ body {
     .align-middle{
         display: flex;
         align-items: center;
+    }
+    .border-left.active{
+        &:after{-webkit-animation: grow-80 1.5s 1 forwards;animation: grow-80 1.5s 1 forwards;}
+    }
+    @keyframes grow-80 {
+    0% {width: 0;}
+    100% {width: 120px; }
     }
 
     @mixin label($display: block, $pos: absolute, $left: 0%, $right: 0%, $color: $light_black, $font-size: 30em, $font-weight: bold, $text-transform: uppercase, $z-index: -2, $opacity: 0.2) {
@@ -154,7 +160,7 @@ body {
         padding: 0px 10px;
         width: 100%;
         transition: all 0.5s;
-        background: $white;
+        background: #212121;
         &.scrollUp{
             transform: translateY(-102px);
         }
@@ -171,7 +177,7 @@ body {
                     padding: 0 40px;
 
                     a{
-                        color: $dark_black;
+                        color: $white;
                         font-size: 14px;
                     }
                 }
@@ -188,7 +194,7 @@ body {
             }
 
             a {
-                color: $gold;
+                color: $green;
                 font-size: 20px;
                 margin: 0 auto;
             }
@@ -211,7 +217,7 @@ body {
            .eyebrow{
                font-size: 16px;
                padding-bottom: 10px;
-               color:$gold;
+               color:$green;
                font-weight: 500;;
            }
 
@@ -240,10 +246,7 @@ body {
                 }
 
                 a {
-                    color: $gold;
-
                     position: relative;
-
                     &:after {
                         content: '';
                         display: block;
@@ -252,12 +255,12 @@ body {
                         left: 0;
                         bottom: -1px;
                         height: 1px;
-                        background: $gold;
+                        background: $green;
                     }
                 }
 
                 p {
-                    color: $dark_black !important;
+                    color: $white !important;
                     font-size: 16px;
                     font-weight: 400;
                     padding: 10px 0 20px 0;
@@ -284,9 +287,10 @@ body {
                     list-style: outside none none;
                     width: 50%;
                     line-height: 2;
+                    color:$white;
                 .fas{
                     padding-right: 10px;
-                    color:$gold;
+                    color:$green;
                 }
                 }
             }
@@ -300,7 +304,7 @@ body {
                         display: block;
                         height: 99%;
                         width:250px;
-                        background:$gold;
+                        background:$green;
                         position:absolute;
                         top:0;
                         left: 0;
@@ -321,12 +325,7 @@ body {
             }
         }
 
-        // Portfolio Section
-        #portfolio{
-            h2{
-                margin-left: 50px;
-            }
-        }
+
 
         // Work Section
         #work {
@@ -338,7 +337,7 @@ body {
                     font-size: 20px;
                     font-weight: 700;
                     padding-bottom:20px;
-                    color:$dark_black;
+                    color:$white;
                 }
     
                 .card-description{
@@ -346,8 +345,9 @@ body {
                     z-index: 1;
                     .card-content{
                         padding: 25px;
-                        background: $white;
-                        box-shadow: 0 10px 20px -15px $dark_black;
+                        background: $green;
+                        box-shadow: 0 10px 10px -15px $green;
+                        font-weight:500;
                         border-radius: 10px;
                     }
                     ul {
@@ -355,8 +355,9 @@ body {
                         li{
                             display: inline-block;
                             padding:0 10px;
+                            color:$green;
                             font-size: 14px;
-                            color:$light_black;
+                            color:$white;
                         }
                     }
                 }
@@ -374,12 +375,28 @@ body {
                             display: block;
                             height: 99%;
                             width:100%;
-                            background:$gold;
+                            background:$light_black;
                             position:absolute;
                             top:0;
                             left: 0;
-                            opacity: .5;
+                            opacity: 1;
                             border-radius: 10px;
+                            transition: ease .3s all;
+                        }
+                        &:before{
+                            content:'';
+                            background-position: center;
+                            z-index: 1;
+                            width: 250px;
+                            position: absolute;
+                            top: 0;
+                            right: 0;
+                            left: 0;
+                            margin:0 auto;
+                            background-repeat: no-repeat;
+                            background-size: contain;
+                            height: 100%;
+                            display: block;
                             transition: ease .3s all;
                         }
                         img{
@@ -393,9 +410,57 @@ body {
                             &:after{
                                 opacity: 0;
                             }
+                            &:before{
+                                opacity: 0;
+                            }
                         }
                     }
     
+                }
+                &:nth-child(1){
+                    .card-image{
+                        div{
+                            &:before {
+                                background-image:url('/src/img/Twelve-Three-Digital-Marketing-Company.svg');
+                            }
+                        }
+                    }
+                }
+                &:nth-child(2){
+                    .card-image{
+                        div{
+                            &:before {
+                                background-image:url('/src/img/The-Bishop-Law-Group.svg');
+                            }
+                        }
+                    }
+                }
+                &:nth-child(3){
+                    .card-image{
+                        div{
+                            &:before {
+                                background-image:url('/src/img/Henry-Carus-Associates-Injury-Lawyer.svg');
+                            }
+                        }
+                    }
+                }
+                &:nth-child(4){
+                    .card-image{
+                        div{
+                            &:before {
+                                background-image:url('/src/img/kogan-and-disalvo-personal-injury-logo.svg');
+                            }
+                        }
+                    }
+                }
+                &:nth-child(5){
+                    .card-image{
+                        div{
+                            &:before {
+                                background-image:url('/src/img/MJBiz-Daily.png');
+                            }
+                        }
+                    }
                 }
             }
         }
@@ -405,12 +470,13 @@ body {
             
             .card{
                 margin-top:50px;
-                background: $gold;
+                background: $green;
                 border-radius:10px;
                 color:$white;
 
                 .card-description{
                     padding:50px;
+                    color:$dark_grey;
 
                     .card-title{ 
                         font-size: 30px;
@@ -429,6 +495,7 @@ body {
                 img{
                     width:200px;
                     margin: 0 auto;
+                    filter: grayscale(100%) contrast(1);
                 }
             }
         }
@@ -450,6 +517,7 @@ body {
             }
         }
     }
+    .copyright{color:$white;}
 
     .column.is-half,
     .column.is-two-thirds,
@@ -470,16 +538,16 @@ body {
         line-height: 4;
         a{
             font-size: 18px;
-            color: $white;
+            color: $dark_grey;
         }
     }
 
     i.fas.fa-bars{
         font-size: 45px;
-        color:$gold;
+        color:$green;
     }
     .navbar-burger {
-        color: $gold !important;
+        color: $green !important;
     }
 
     img {
@@ -499,8 +567,8 @@ body {
         min-width: 300px;
         height: 100vh;
         outline: 0px;
-        background-color: $gold;
-        box-shadow: -10px 0px 30px -15px $dark_black;
+        background-color: $green;
+        box-shadow: -10px 0px 30px -15px $white;
         z-index: 9;
         transform: translateX(0vw);
         visibility: visible;
@@ -517,19 +585,19 @@ body {
         top: 10px;
         right: 10px;
         font-size: 45px;
-        color:$white;
+        color:$dark_grey;
     }
 }
 
 
 footer {
     display: none;
-    background: $gold;
+    background: $green;
     padding: 10px;
 
     h4 {
         font-weight: bold;
-        color: $dark_black;
+        color: $white;
     }
 
     li {
@@ -538,12 +606,12 @@ footer {
 
         a {
             i {
-                color: $dark_black;
+                color: $white;
             }
 
             &:hover {
                 i {
-                    color: $gold !important;
+                    color: $green !important;
                 }
             }
         }
@@ -580,6 +648,7 @@ footer {
             padding:20px 0 !important;
             .card-title{
                 padding-bottom: 5px !important;
+                color:$white;
             }
             .card-content{
                 padding: 25px 0 !important;
@@ -588,6 +657,9 @@ footer {
             }
             .card-description{
                 order:1;
+                .card-content{
+                    color:$white;
+                }
             }
             .card-image{
                 order: 2;
@@ -605,7 +677,7 @@ footer {
         overflow: hidden;
         bottom: 0;
         left: 0;
-        background: $white;
+        background: transparent;
         position: fixed;
         z-index: 999;
 
@@ -631,7 +703,7 @@ footer {
 
                     a {
                         width: 100%;
-                        color: $dark_black;
+                        color: $white;
                         font-size: 16px;
                         text-transform: uppercase;
                         transition: all 1s ease;
@@ -645,16 +717,17 @@ footer {
                     }
 
                     .active {
-                        color: $gold;
+                        color: $green;
                     }
                 }
             }
 
             ul.contact {
                 position: absolute;
-                bottom: 0;
+                bottom: 50%;
                 width: 100%;
-
+                display: flex;
+                flex-direction: column;
                 li {
                     position: relative;
                     text-align: center;
@@ -664,13 +737,13 @@ footer {
 
                     a {
                         width: 100%;
-                        color: $dark_black;
+                        color: $white;
                         font-size: 16px;
                         text-transform: uppercase;
                         transition: all 1s ease;
 
                         &:hover {
-                            color: $gold;
+                            color: $green;
                         }
                     }
                 }

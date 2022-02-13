@@ -8,7 +8,7 @@ const Featured: React.FC = () => {
             <div className="container">
                 <div className="columns is-mobile">
                     <div className="column is-three-quarters">
-                        <h2>Featured Case Study</h2>
+                        <h2 className="border-left">Featured Case Study</h2>
                         <div className="card columns">
                             
                             <div className="card-description column is-three-fifths  has-text-left">

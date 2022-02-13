@@ -8,7 +8,7 @@ const About: React.FC = () => {
             <div className="container">
                 <div className="columns is-mobile">
                     <div className="column is-three-quarters">
-                        <h2>About Me</h2>
+                        <h2 className="border-left">About Me</h2>
                         <div className="columns">
                             <div className="column is-half has-text-left align-middle">
                                 <p>After teaching myself the very basics of web development in high school, 

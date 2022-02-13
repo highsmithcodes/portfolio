@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Route, Link, NavLink } from 'react-router-dom'
 import { TransitionGroup, CSSTransition } from "react-transition-group";
 import Header from '../Pages/Header';
 import Portfolio from '../Pages/Portfolio';
-import logo from '../../img/highsmith-logo.png';
+import logo from '../../img/highsmith-logo-white.png';
 
 const routes = [
     { path: '/', name: 'Home', Component: Header, class: 'house' },
