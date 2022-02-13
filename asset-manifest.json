@@ -1,26 +1,28 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.ff644d37.chunk.css",
-    "main.js": "/portfolio/static/js/main.b31203e0.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.b31203e0.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.db431029.chunk.css",
+    "main.js": "/portfolio/static/js/main.a1fc4131.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.a1fc4131.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.fafd1d41.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.fafd1d41.js.map",
     "static/js/2.633607fe.chunk.js": "/portfolio/static/js/2.633607fe.chunk.js",
     "static/js/2.633607fe.chunk.js.map": "/portfolio/static/js/2.633607fe.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "static/css/main.ff644d37.chunk.css.map": "/portfolio/static/css/main.ff644d37.chunk.css.map",
+    "static/css/main.db431029.chunk.css.map": "/portfolio/static/css/main.db431029.chunk.css.map",
     "static/js/2.633607fe.chunk.js.LICENSE.txt": "/portfolio/static/js/2.633607fe.chunk.js.LICENSE.txt",
+    "static/media/main.css": "/portfolio/static/media/kogan-and-disalvo-personal-injury-logo.a356a574.svg",
     "static/media/basement-brew-iphone.5bf7f289.png": "/portfolio/static/media/basement-brew-iphone.5bf7f289.png",
+    "static/media/client-work-Bishop-Law.8aeceda3.png": "/portfolio/static/media/client-work-Bishop-Law.8aeceda3.png",
+    "static/media/client-work-Henry-Carus-Law.279e80ac.png": "/portfolio/static/media/client-work-Henry-Carus-Law.279e80ac.png",
     "static/media/client-work-Kogan-Law.4d10559d.jpg": "/portfolio/static/media/client-work-Kogan-Law.4d10559d.jpg",
     "static/media/client-work-MJBiz-Daily.70e6d7f4.jpg": "/portfolio/static/media/client-work-MJBiz-Daily.70e6d7f4.jpg",
     "static/media/client-work-Twelve-Three.466021f9.jpg": "/portfolio/static/media/client-work-Twelve-Three.466021f9.jpg",
-    "static/media/highsmith-headshot.2fd6bab6.png": "/portfolio/static/media/highsmith-headshot.2fd6bab6.png",
-    "static/media/highsmith-logo.bb12bb9c.png": "/portfolio/static/media/highsmith-logo.bb12bb9c.png"
+    "static/media/highsmith-headshot.2fd6bab6.png": "/portfolio/static/media/highsmith-headshot.2fd6bab6.png"
   },
   "entrypoints": [
     "static/js/runtime-main.fafd1d41.js",
     "static/js/2.633607fe.chunk.js",
-    "static/css/main.ff644d37.chunk.css",
-    "static/js/main.b31203e0.chunk.js"
+    "static/css/main.db431029.chunk.css",
+    "static/js/main.a1fc4131.chunk.js"
   ]
 }
