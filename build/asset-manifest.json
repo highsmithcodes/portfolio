@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.db431029.chunk.css",
-    "main.js": "/portfolio/static/js/main.a1fc4131.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.a1fc4131.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.9ebe264c.chunk.css",
+    "main.js": "/portfolio/static/js/main.77759a52.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.77759a52.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.fafd1d41.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.fafd1d41.js.map",
     "static/js/2.633607fe.chunk.js": "/portfolio/static/js/2.633607fe.chunk.js",
     "static/js/2.633607fe.chunk.js.map": "/portfolio/static/js/2.633607fe.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "static/css/main.db431029.chunk.css.map": "/portfolio/static/css/main.db431029.chunk.css.map",
+    "static/css/main.9ebe264c.chunk.css.map": "/portfolio/static/css/main.9ebe264c.chunk.css.map",
     "static/js/2.633607fe.chunk.js.LICENSE.txt": "/portfolio/static/js/2.633607fe.chunk.js.LICENSE.txt",
     "static/media/main.css": "/portfolio/static/media/kogan-and-disalvo-personal-injury-logo.a356a574.svg",
     "static/media/basement-brew-iphone.5bf7f289.png": "/portfolio/static/media/basement-brew-iphone.5bf7f289.png",
@@ -22,7 +22,7 @@
   "entrypoints": [
     "static/js/runtime-main.fafd1d41.js",
     "static/js/2.633607fe.chunk.js",
-    "static/css/main.db431029.chunk.css",
-    "static/js/main.a1fc4131.chunk.js"
+    "static/css/main.9ebe264c.chunk.css",
+    "static/js/main.77759a52.chunk.js"
   ]
 }
