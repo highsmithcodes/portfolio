@@ -6754,6 +6754,7 @@ body {
           background-repeat: no-repeat;
           background-size: contain;
           height: 100%;
+          filter: grayscale(100%) contrast(1);
           display: block;
           transition: ease .3s all; }
         body .hero-body #work .card .card-image div img {
