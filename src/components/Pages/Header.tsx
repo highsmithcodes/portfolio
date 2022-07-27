@@ -11,11 +11,11 @@ const Header: React.FC = () => {
             <div className="container">
                 <div className="columns is-mobile">
                     <div className="column is-four-fifths landing">
-                        <h1>Veronica Highsmith <br />
+                        <h1>Ezra Highsmith <br />
                             <span>Front-End Developer & UI Designer</span>
                         </h1>
                         <p>I design and code clean, user-friendly websites.</p>
-                        <a className="button pink" href="mailto:veehighsmith@gmail.com">Let's Connect</a>
+                        <a className="button pink" href="mailto:ezrahighsmith@gmail.com">Let's Connect</a>
                     </div>
                 </div>
             </div>

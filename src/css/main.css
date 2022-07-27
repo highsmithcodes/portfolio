@@ -6687,7 +6687,7 @@ body {
         display: block;
         height: 99%;
         width: 250px;
-        background: #00f5a2;
+        background: #57575a;
         position: absolute;
         top: 0;
         left: 0;
@@ -6822,7 +6822,8 @@ body {
     line-height: 4; }
     .mobile-nav li a {
       font-size: 18px;
-      color: #343438; }
+      color: #343438;
+      font-weight: 600; }
   .mobile-nav i.fas.fa-bars {
     font-size: 45px;
     color: #00f5a2; }
@@ -6845,7 +6846,7 @@ body {
     height: 100vh;
     outline: 0px;
     background-color: #00f5a2;
-    box-shadow: -10px 0px 30px -15px #f7f8f3;
+    box-shadow: -10px 0px 30px -15px #000;
     z-index: 9;
     transform: translateX(0vw);
     visibility: visible; }
@@ -6904,7 +6905,9 @@ footer {
       #portfolio .card .card-description .card-content {
         color: #f7f8f3; }
     #portfolio .card .card-image {
-      order: 2; } }
+      order: 2; }
+      #portfolio .card .card-image a {
+        filter: grayscale(100%) contrast(1); } }
 
 @media screen and (min-width: 900px) {
   .fixed-nav {
