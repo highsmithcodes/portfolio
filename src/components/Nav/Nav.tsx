@@ -50,10 +50,9 @@ const Menu: React.FC = (props) => {
                 <div className="fixed-nav">
                     <div className="navbar-menu">
                         <ul className="contact">
-                            <li><a href="https://www.linkedin.com/in/veronica-highsmith-07a04787/" target="_blank"><i className="fab fa-linkedin-in"></i></a></li>
                             <li><a href="https://github.com/highsmithcodes" target="_blank"><i className="fab fa-github"></i></a></li>
                             <li><a href="https://codepen.io/highsmithcodes" target="_blank"><i className="fas fa-code"></i></a></li>
-                            <li><a href="mailto: veehighsmith@gmail.com" target="_blank"><i className="fas fa-at"></i></a></li>
+                            <li><a href="mailto: ezrahighsmith@gmail.com" target="_blank"><i className="fas fa-at"></i></a></li>
                         </ul>
                     </div>
                 </div>
@@ -78,10 +77,9 @@ const Menu: React.FC = (props) => {
                 <footer>
                     <h4>Contact Me</h4>
                     <ul className="contact">
-                        <li><a href="https://www.linkedin.com/in/veronica-highsmith-07a04787/" target="_blank"><i className="fab fa-linkedin-in"></i></a></li>
                         <li><a href="https://github.com/highsmithcodes" target="_blank"><i className="fab fa-github"></i></a></li>
                         <li><a href="https://codepen.io/highsmithcodes" target="_blank"><i className="fas fa-code"></i></a></li>
-                        <li><a href="mailto: veehighsmith@gmail.com" target="_blank"><i className="fas fa-at"></i></a></li>
+                        <li><a href="mailto: ezrahighsmith@gmail.com" target="_blank"><i className="fas fa-at"></i></a></li>
                     </ul>
                 </footer>
             </>
