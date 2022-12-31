@@ -15,7 +15,7 @@ const Work: React.FC = () => {
     return (
         <div id="work">
             <div className='columns is-mobile'>
-                <div className='is-one-third column'>
+                <div className='is-one-third column '>
                     <div className="super-box">
                         <div className="box">
                             <div className="icon_bg">
@@ -33,7 +33,7 @@ const Work: React.FC = () => {
                     </div>
                 </div>
 
-                <div className='is-one-third column'>
+                <div className='is-one-third column '>
                     <div className="super-box">
                     <div className="box">
                         <div className="icon_bg"></div>
@@ -83,7 +83,7 @@ const Work: React.FC = () => {
                     </div>
                 </div>
 
-                <div className='is-one-third column'>
+                <div className='is-one-third column '>
                     <div className="super-box">
                     <div className="box">
                         <div className="icon_bg"></div>

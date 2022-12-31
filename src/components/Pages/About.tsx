@@ -6,8 +6,8 @@ const About: React.FC = () => {
     return (
         <div className="hero-body" id="about">
             <div className="container">
-                <span className='top left'>2013</span>
-                <span className='top right'>2023</span>
+                <span className='top left'>1</span>
+                <span className='top right'>7</span>
                 <div className="columns is-mobile">
                     <div className="column is-three-quarters">
                         <h2 className="border-left">About Me</h2>
@@ -19,12 +19,37 @@ const About: React.FC = () => {
                                 <br />
 
                                 <div className='measured'>
-                                    <div id="javascript"><span>Javascript</span></div> 
-                                    <div  id="react"><span>React</span></div>
-                                    <div  id="typescript"><span>Typescript</span></div> 
-                                    <div  id="php"><span>PHP</span></div> 
-                                    <div  id="postgres"><span>PostgreSQL</span></div> 
+                                    <div id="htmlcss"></div> 
+                                    <div id="javascript"></div> 
+                                    <div  id="react"></div>
+                                    <div  id="typescript"></div> 
+                                    <div  id="php"></div> 
+                                    <div  id="postgres"></div> 
                                 </div>
+
+                                <table>
+                                    <tbody>
+                                    <tr className='top'>
+                                    <td>Focus</td>
+                                    <td>Tools</td>
+                                    </tr>
+                                    <tr>
+                                    <td>Front-End</td>
+                                    <td>HTML, CSS, SASS, Flexbox, Javascript, React, Redux, jQuery, JSON</td>
+                                    </tr>
+                                    <tr>
+                                    <td>Back-End</td>
+                                    <td>Express, Node, Rest APIs, PHP, PostgreSQL</td>
+                                    </tr>
+                                    <tr>
+                                    <td>DevOPS</td>
+                                    <td> Git, Docker, AWS</td>
+                                    </tr>
+
+                                    </tbody>
+                                    </table>
+                                
+
 
                                 {/* <ul className="two-column">
                                     <li><i className="fas fa-caret-right"></i>Javascript</li>
