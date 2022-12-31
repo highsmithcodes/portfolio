@@ -30,6 +30,7 @@ const Menu: React.FC = (props) => {
                                 <li className="navbar-item"><a href="#contact">Contact</a></li>
                             </ul>
                         </div>
+      
 
                         <div className="mobile-nav">
                             <div className="navbar-brand">
@@ -47,15 +48,6 @@ const Menu: React.FC = (props) => {
                         </div>
                     </div>
                 </nav>
-                <div className="fixed-nav">
-                    <div className="navbar-menu">
-                        <ul className="contact">
-                            <li><a href="https://github.com/highsmithcodes" target="_blank"><i className="fab fa-github"></i></a></li>
-                            <li><a href="https://codepen.io/highsmithcodes" target="_blank"><i className="fas fa-code"></i></a></li>
-                            <li><a href="mailto: ezrahighsmith@gmail.com" target="_blank"><i className="fas fa-at"></i></a></li>
-                        </ul>
-                    </div>
-                </div>
                 <section>
                     {routes.map(({ path, Component }) => (
                         <Route key={path} exact path={path}>

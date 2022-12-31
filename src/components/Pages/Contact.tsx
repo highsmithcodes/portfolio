@@ -13,7 +13,6 @@ const Contact: React.FC = () => {
                 </div>
             </div>
             <div className="copyright">Designed & Built by Ezra Highsmith</div>
-            <div className="made-by-bulma"><a href="https://bulma.io"><img src="https://bulma.io/images/made-with-bulma.png" alt="Made with Bulma" width="163" height="31"/></a></div>
         </div>
     );
 }

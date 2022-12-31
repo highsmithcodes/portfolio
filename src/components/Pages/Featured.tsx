@@ -6,27 +6,44 @@ const Featured: React.FC = () => {
     return (
         <div id="featured">
             <div className="container">
+                
                 <div className="columns is-mobile">
                     <div className="column is-three-quarters">
-                        <h2 className="border-left">Featured Case Study</h2>
+                        <h2 className="border-left">Side Projects</h2>
+                        <p>I'm almost always working on a side projects.</p>
                         <div className="card columns">
                             
-                            <div className="card-description column is-three-fifths  has-text-left">
-                                <div>
+                            <div className="card-description column is-full has-text-left">
+                                <div className="featured-item labels">
+                                    <p>Title</p>
+                                    <p>Description</p>
+                                    <p>Git Repo</p>
+                                    <p>Languages</p>
+                                </div>
+                                <div className="featured-item">
+                                    <div className="card-title">Basement Brew</div>
+                                    <div className="card-subtitle">Beer Brewing Social Network</div>
+                                    <div className="card-repository"><a href="#" target="_blank"><i className="fab fa-github"></i></a></div>
+                                    <div className="card-languages">Typescript | React | Firebase</div>
+                                </div>
+                                <div className="featured-item">
                                     <div className="card-title">Basement Brew</div>
                                     <div className="card-subtitle">A social network for home brewers</div>
-                                    <div className="card-content">
-                                        Basement Brew is a passion project I've been building with Android SDK and React Native. It's a platform that helps connect passionate beer brewers that want to share new recipes and meet other like minded people.
-                                        <br/>
-                                        <br/>
-                                        Coming soon...
-                                    </div>
+                                    <div className="card-repository"><a href="#" target="_blank"><i className="fab fa-github"></i></a></div>
+                                    <div className="card-languages">Typescript | React | Firebase</div>
                                 </div>
-                            </div>
-                            <div className="card-image column is-two-fifths">
-                                    <div>
-                                            <img src={basement_brew} alt="iphone image of basement brew" />
-                                    </div>
+                                <div className="featured-item">
+                                    <div className="card-title">Basement Brew</div>
+                                    <div className="card-subtitle">A social network for home brewers</div>
+                                    <div className="card-repository"><a href="#" target="_blank"><i className="fab fa-github"></i></a></div>
+                                    <div className="card-languages">Typescript | React | Firebase</div>
+                                </div>
+                                <div className="featured-item">
+                                    <div className="card-title">Basement Brew</div>
+                                    <div className="card-subtitle">A social network for home brewers</div>
+                                    <div className="card-repository"><a href="#" target="_blank"><i className="fab fa-github"></i></a></div>
+                                    <div className="card-languages">Typescript | React | Firebase</div>
+                                </div>
                             </div>
                         </div>
                     </div>

@@ -8,14 +8,19 @@ import Contact from './Contact';
 const Header: React.FC = () => {
     return (
         <div className="hero-body" id="home">
-            <div className="container">
+            <div className="container landing-container">
                 <div className="columns is-mobile">
-                    <div className="column is-four-fifths landing">
+                    <div className="column is-three-quarters landing">
                         <h1>Ezra Highsmith <br />
-                            <span>Front-End Developer & UI Designer</span>
+                            <span>Front-End Developer</span>
                         </h1>
                         <p>I design and code clean, user-friendly websites.</p>
-                        <a className="button pink" href="mailto:ezrahighsmith@gmail.com">Let's Connect</a>
+                        {/* <a className="button pink" href="mailto:ezrahighsmith@gmail.com">Let's Connect</a> */}
+                        <ul className="contact">
+                            <li><a href="https://github.com/highsmithcodes" target="_blank"><i className="fab fa-github"></i></a></li>
+                            <li><a href="https://codepen.io/highsmithcodes" target="_blank"><i className="fas fa-code"></i></a></li>
+                            <li><a href="mailto: ezrahighsmith@gmail.com" target="_blank"><i className="fas fa-at"></i></a></li>
+                        </ul>
                     </div>
                 </div>
             </div>
