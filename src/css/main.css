@@ -6839,7 +6839,7 @@ body {
       position: relative;
       width: 20px;
       height: 100%;
-      border: 1px solid #000; }
+      border: 1px solid #283D3B; }
       body .hero-body#about .side-measure span {
         position: absolute;
         left: 50px;
@@ -6876,65 +6876,54 @@ body {
           font-size: 26px;
           padding-right: 50px; }
     body .hero-body #work {
-      margin-top: 40px; }
-      body .hero-body #work .container {
-        display: flex;
-        justify-content: center;
-        flex-direction: row;
-        flex-wrap: wrap;
-        margin-top: 80px; }
-      body .hero-body #work .columns {
-        flex-direction: row;
-        flex-wrap: wrap;
-        margin: 80px auto 0 auto; }
-      body .hero-body #work .tab-details {
-        display: flex;
-        justify-content: space-between;
-        padding: 40px;
-        position: relative; }
-        body .hero-body #work .tab-details .detail-image {
-          min-width: 40%;
-          margin-right: 20px;
-          display: flex;
-          justify-content: center;
-          align-items: center; }
-        body .hero-body #work .tab-details img {
-          max-width: 250px;
-          height: auto;
-          filter: grayscale(1); }
-        body .hero-body #work .tab-details .detail-body {
-          z-index: 1;
-          position: relative; }
-          body .hero-body #work .tab-details .detail-body .new-window {
-            position: absolute;
-            bottom: 0;
-            right: 0; }
-            body .hero-body #work .tab-details .detail-body .new-window i {
-              color: #B56D36; }
-        body .hero-body #work .tab-details:after {
-          content: '';
-          background: #fff;
-          width: 60%;
+      margin-top: 40px;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-around; }
+      body .hero-body #work .box {
+        background-color: #fff;
+        padding: 20px;
+        text-align: center;
+        position: relative;
+        width: 45%;
+        margin-bottom: 60px;
+        border-radius: 0;
+        height: 250px; }
+        body .hero-body #work .box .box-details {
           position: absolute;
-          right: 0;
-          top: 0;
-          z-index: 0;
-          height: 100%; }
-      body .hero-body #work .tabs {
-        margin-bottom: 0; }
-        body .hero-body #work .tabs li a {
-          font-weight: 600;
-          color: #fff;
-          padding: 20px;
-          border: none; }
-        body .hero-body #work .tabs li:hover a {
-          background-color: #772E25; }
-        body .hero-body #work .tabs li.is-active a {
-          background-color: #772E25;
-          border: none; }
-        body .hero-body #work .tabs ul.tab-controls {
-          justify-content: space-between !important;
-          background-color: rgba(119, 46, 37, 0.5); }
+          bottom: -20px;
+          right: 20px;
+          padding: 10px;
+          background-color: #B56D36; }
+          body .hero-body #work .box .box-details span {
+            color: #fff;
+            padding: 0 20px; }
+        body .hero-body #work .box .box-img {
+          width: 100%;
+          display: none; }
+          body .hero-body #work .box .box-img img {
+            max-width: 100%;
+            height: auto; }
+        body .hero-body #work .box .visible-content {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          height: 100%;
+          width: 100%;
+          background-color: black; }
+          body .hero-body #work .box .visible-content a {
+            margin-top: 20px;
+            font-weight: 600;
+            color: #fff; }
+          body .hero-body #work .box .visible-content img {
+            max-width: 150px;
+            margin: 0 auto; }
+        body .hero-body #work .box:hover .box-img {
+          display: block; }
+        body .hero-body #work .box:hover .visible-content {
+          display: none; }
     body .hero-body #featured .card {
       margin-top: 50px;
       background: #fff;

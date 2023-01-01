@@ -362,7 +362,7 @@ body {
                 position: relative;
                 width: 20px;
                 height:100%;
-                border: 1px solid #000;
+                border: 1px solid $theme-green;
                 span{
                     position: absolute;
                     left:50px;
@@ -417,81 +417,68 @@ body {
         // Work Section
         #work {
             margin-top: 40px;
-            .container{
-                display: flex;
-                justify-content: center;
-                flex-direction: row;
-                flex-wrap: wrap;
-                margin-top:80px;
-            }
-            .columns{
-                flex-direction: row;
-                flex-wrap: wrap;
-                margin:80px auto 0 auto;
-            }
-            .tab-details{
-                display: flex;
-                justify-content: space-between;
-                padding:40px;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            .box{
+                background-color:#fff;
+                padding: 20px;
+                text-align: center;
                 position: relative;
-                .detail-image{
-                    min-width: 40%;
-                    margin-right:20px;
+                width: 45%;
+                margin-bottom: 60px;
+                border-radius: 0;
+                height: 250px;
+                .box-details{
+                    position: absolute;
+                    bottom: -20px;
+                    right: 20px;
+                    padding: 10px;
+                    background-color: $theme-orange;
+                    span{
+                        color:#fff;
+                        padding: 0 20px;
+                    }
+                }
+                .box-img{
+                    width: 100%;
+                    display: none;
+                    img{
+                        max-width: 100%;
+                        height: auto;
+                        // filter: grayscale(1);
+                    }
+                }
+                .visible-content{
                     display: flex;
+                    flex-direction: column;
                     justify-content: center;
                     align-items: center;
-                }
-                img{
-                    max-width: 250px;
-                    height: auto; 
-                    filter: grayscale(1);
-                }
-                .detail-body{
-                    z-index: 1;
-                    position: relative;
-                    .new-window{
-                        position: absolute;
-                        bottom:0;
-                        right:0;
-                        i{
-                            color:$theme-orange;
-                        }
-                    }
-                }
-                &:after {
-                    content: '';
-                    background: #fff;
-                    width: 60%;
-                    position: absolute;
-                    right: 0;
-                    top: 0;
-                    z-index: 0;
                     height: 100%;
-                }
-                
-            }
-            .tabs{
-                margin-bottom: 0;
-                li a{
-                    font-weight: 600;
-                    color: #fff;
-                    padding: 20px;
-                    border: none;
-                }
-                li{
-                    &:hover{
-                        a{background-color: $theme-red;}
+                    width: 100%;
+                    background-color: black;
+                    a{
+                        margin-top:20px;
+                        font-weight: 600;
+                        color:#fff;
+                    }
+                    img{
+                        max-width: 150px;
+                        margin: 0 auto;
                     }
                 }
-                li.is-active a{
-                    background-color: $theme-red;
-                    border:none;
-                }
-                ul.tab-controls{
-                    justify-content: space-between !important;
-                    background-color: rgba(119, 46, 37, .5);
+
+                &:hover{
+                    .box-img{
+                        display: block;
+                    }
+                    .visible-content{
+                        display: none;
+                    }
                 }
             }
+
         }
 
         // Featured Section
