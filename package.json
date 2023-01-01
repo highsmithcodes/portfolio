@@ -17,6 +17,7 @@
     "react-dom": "^16.13.1",
     "react-router-dom": "^5.2.0",
     "react-scripts": "^4.0.3",
+    "react-tabs": "^6.0.0",
     "react-transition-group": "^4.4.1"
   },
   "scripts": {
