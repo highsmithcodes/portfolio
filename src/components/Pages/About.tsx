@@ -62,7 +62,7 @@ const About: React.FC = () => {
                                 <p>Coding is a journey of constant growth and challenge - I'm genuinly passionate about it and have a great time doing it.</p>
                                 <br />
                                 <p>
-                                    As for experience, I have
+                                    I have
                                     <div
                                         className="slideshowSlider p-relative years"
                                     >{years.map((_, idx) => (

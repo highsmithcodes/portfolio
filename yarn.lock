@@ -10931,6 +10931,11 @@
   optionalDependencies:
     "fsevents" "^2.1.3"
 
+"react-swipeable@^7.0.0":
+  "integrity" "sha512-NI7KGfQ6gwNFN0Hor3vytYW3iRfMMaivGEuxcADOOfBCx/kqwXE8IfHFxEcxSUkxCYf38COLKYd9EMYZghqaUA=="
+  "resolved" "https://registry.npmjs.org/react-swipeable/-/react-swipeable-7.0.0.tgz"
+  "version" "7.0.0"
+
 "react-tabs@^6.0.0":
   "integrity" "sha512-8jKLKrlwxmn5/+xsa76yi27ZdB8E/WhlhQZw739O5UlOeUGtVoVeWnpqIewv/KbjTw7gQf/uA51zWUNt4IVygQ=="
   "resolved" "https://registry.npmjs.org/react-tabs/-/react-tabs-6.0.0.tgz"
@@ -10949,7 +10954,7 @@
     "loose-envify" "^1.4.0"
     "prop-types" "^15.6.2"
 
-"react@^16.13.1", "react@^18.0.0", "react@>= 16":
+"react@^16.13.1", "react@^16.8.3 || ^17 || ^18", "react@^18.0.0", "react@>= 16":
   "integrity" "sha512-YMZQQq32xHLX0bz5Mnibv1/LHb3Sqzngu7xstSM+vrkE5Kzr9xE0yMByK5kMoTK30YVJE61WfbxIFFvfeDKT1w=="
   "resolved" "https://registry.npmjs.org/react/-/react-16.13.1.tgz"
   "version" "16.13.1"
