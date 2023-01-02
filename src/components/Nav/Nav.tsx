@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import ReactDOM from 'react-dom'
 import { BrowserRouter as Router, Route, Link, NavLink } from 'react-router-dom';
 import { TransitionGroup, CSSTransition } from "react-transition-group";
@@ -12,6 +12,8 @@ const routes = [
 ]
 
 const Menu: React.FC = (props) => {
+    const[openMenu, toggleOpenMenu] = useState(false);
+
     return (
         <Router basename="/portfolio" >
             <>
@@ -32,7 +34,9 @@ const Menu: React.FC = (props) => {
                         </div>
       
 
-                        <div className="mobile-nav">
+                        <div className="mobile-nav" onClick={() => {
+                                toggleOpenMenu(true);
+                            }}>
                             <div className="navbar-brand">
                                 <i className="fas fa-bars"></i>
                             </div>
