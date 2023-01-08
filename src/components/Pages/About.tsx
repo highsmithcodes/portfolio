@@ -26,66 +26,81 @@ const About: React.FC = () => {
             <div className="container">
                 {/* <span className='top left'>1</span>
                 <span className='top right'>7</span> */}
+                <div className='columns is-mobile'>
+                  <h2 className="text-align-center">About</h2>
+                  {/* <div className='sub-title'>Denver based Front-End Developer</div> */}
+                </div>
+
                 <div className="columns is-mobile">
-                    <div className="column is-three-quarters">
-                        <h2 className="border-left">About Me</h2>
-                        <div className="columns">
-                            <div className='column is-one-fifth'>
+                    <div className="column is-three-quarters" >
+                    
+                        <div className='columns'>
+                          <div className="column is-four-fifths has-text-left align-middle">
+                              <p>Hey! My name is Ezra, I'm a Full Stack/Front-End Developer base out of Denver, CO.</p>
+                              <br/>
+                              <p>My tech career began a few years out of high school, I wanted a career that was stimulating and artistic.</p>
+                              <br/>
+                              <p>I started where any typical self taught developer would, with Wordpress. After a few years of freelance work, building client sites and custom Wordpress templates, I landed a job at an <a href="https://www.fineartprinting.la
+
+" target="_blank">startup</a> in Los Angeles.</p>
+                              <br/>
+                              <p>After that I went on to work at a <a href="https://www.cision.com/" target="_blank">software company</a>, <a href="https://mjbizdaily.com/" target="_blank">a news outlet</a>, to now at a <a href="https://www.digitalmarketingcompany.com/" target="_blank">digital marketing agency</a>.</p>
+
+                                  <br />
+                                  <p>
+                                      I've been working with 
+                                      <div
+                                          className="slideshowSlider p-relative language"
+                                      >{languages.map((_, idx) => (
+                                          <div
+                                            key={idx}
+                                            className={`slideshowDot${index === idx ? " active" : ""}`}
+                                          >{_}</div>
+                                        ))}
+                                        </div>
+                                     for
+                                     <div
+                                          className="slideshowSlider p-relative years"
+                                      >{years.map((_, idx) => (
+                                          <div
+                                            key={idx}
+                                            className={`slideshowDot${index === idx ? " active" : ""}`}
+                                          >{_}</div>
+                                        ))}
+                                        </div> 
+                                      year(s).
+                                  </p>
+                              </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                {/* <div className='columns is-mobile'>
+
+                <div className='column is-three-quarters' style={{ marginRight: '0'}}>
+                    <div className="columns"> */}
+                            {/* <div className='column is-four-fifths'>
                                 <div className='side-measure'>
-                                    <span>7 Years</span>
                                     <span>0 Years</span>
-                                    {/* <div className='fill' style={{ height: `${-index * 100}` }}></div> */}
+                                    <span>7 Years</span> 
+                                    <div className='fill' style={{ height: `${-index * 100}` }}></div>
                                     {years.map((_, idx) => (
                                         <div
                                           key={idx}
                                           className={`fill ${index === idx ? " active" : ""}`}
-                                          style={{ height: `${_}9%` }}
+                                          style={{ width: `${_}9%` }}
                                         ></div>
                                       ))}
-                                    {/* {years.map((backgroundColor, index) => (
-                                        <div className='fill' style={{ height: `${backgroundColor}` }}></div>
-                                    // <div
-                                    //     className="slide"
-                                    //     key={index}
-                                    //     style={{ backgroundColor }}
-                                    // ></div>
-                                   
-                                    ))}
-                     */}
-                                </div>
-                            </div>
-                            <div className="column is-four-fifths has-text-left align-middle">
-                                <p>Hey, my name is <b>Ezra</b>, I'm happy you stopped by!</p>
-                                <br />
-                                <p>I've been developing websites for over 7 years now. A young me would be pretty blown away by some of the tech knowledge I have now, and that's why I love my job.</p>
-                                <br />
-                                <p>Coding is a journey of constant growth and challenge - I'm genuinly passionate about it and have a great time doing it.</p>
-                                <br />
-                                <p>
-                                    I have
-                                    <div
-                                        className="slideshowSlider p-relative years"
-                                    >{years.map((_, idx) => (
-                                        <div
-                                          key={idx}
-                                          className={`slideshowDot${index === idx ? " active" : ""}`}
-                                        >{_}</div>
-                                      ))}
-                                      </div> year(s) experience using
-                                    <div
-                                        className="slideshowSlider p-relative language"
-                                    >{languages.map((_, idx) => (
-                                        <div
-                                          key={idx}
-                                          className={`slideshowDot${index === idx ? " active" : ""}`}
-                                        >{_}</div>
-                                      ))}
-                                      </div>.
-                                </p>
-                            </div>
-                        </div>
+          
+                                </div> 
+                            </div> */}
+
+                        {/* </div>
+
                     </div>
-                </div>
+                </div> */}
+
             </div>
         </div>
     );

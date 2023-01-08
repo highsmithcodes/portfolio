@@ -5,9 +5,9 @@ const Featured: React.FC = () => {
 
     // const projects = ["Basement Brew", "Staff Management", "DevWeight"]
     const projectx = [
-        {id: 1, title: 'Basement Brew', content: 'Basement Brew is an online community where home brewers can share, like and comment on other brews in the community. Made with Typescript, React and Firebase', link: 'https://github.com/highsmithcodes/basementbrew'},
-        {id: 2, title: 'Staff Management', content: 'Staff Management app made with React, PostgreSQL and Netflify', link: 'https://github.com/highsmithcodes/employee-management-app'},
-        {id: 3, title: 'DevWeight', content: 'DevWeight is an educational platform helping the everyday developer sharpen their skills. Made with React, Sass, JSON and Netflify', link: 'https://github.com/highsmithcodes/dev-tutorials'}
+        {id: 1, title: 'Basement Brew', content: 'Basement Brew is an online community where home brewers can share, like and comment on other beer recipes in the community.', languages: 'Typescript, React and Firebase', link: 'https://github.com/highsmithcodes/basementbrew'},
+        {id: 2, title: 'Staff Portal (Kept)', content: 'Kept is an organizational database of tutorials, docs and department specific updates. Keep your team organized with Kept.', languages: 'React, Firebase and Netflify', link: 'https://github.com/highsmithcodes/employee-management-app'},
+        {id: 3, title: 'DevWeight', content: 'DevWeight is an educational platform helping the everyday developer sharpen their skills.', languages: 'React, Sass, JSON and Netflify', link: 'https://github.com/highsmithcodes/dev-tutorials'}
     ];
     return (
         <div id="featured">
@@ -42,6 +42,8 @@ const Featured: React.FC = () => {
                                             <div className="top">
                                                 <div className="h4 black">{_.title}</div>
                                                 <div className='desc'>{_.content}</div>
+                                                <br />
+                                                <div className='desc'>Made with: {_.languages}</div> 
                                             </div>
                                             <div className='links'>
                                                 <a href={_.link} target="_blank"><i className="fab fa-github"></i></a>
