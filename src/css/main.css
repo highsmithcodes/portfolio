@@ -6854,7 +6854,7 @@ body {
         top: 1px;
         transform: translateY(-100px); }
       body .hero-body#about .slideshowSlider .slideshowDot.active {
-        opacity: 100%;
+        opacity: 1;
         font-weight: 600;
         transform: translateY(0); }
     body .hero-body#about .slideshowSlider.language {
