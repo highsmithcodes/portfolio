@@ -71,11 +71,11 @@ const Menu: React.FC = (props) => {
                     ))}
                 </section>
                 <footer>
-                    <div className="copyright"><b>Designed & Built by Ezra Highsmith</b></div>
+                    <div className="copyright"><b>Designed & Built by Veronica Highsmith</b></div>
                     <ul className="contact">
                         <li><a href="https://github.com/highsmithcodes" target="_blank"><i className="fab fa-github"></i></a></li>
-                        <li><a href="https://codepen.io/highsmithcodes" target="_blank"><i className="fas fa-code"></i></a></li>
-                        <li><a href="mailto: ezrahighsmith@gmail.com" target="_blank"><i className="fas fa-at"></i></a></li>
+                        {/* <li><a href="https://codepen.io/highsmithcodes" target="_blank"><i className="fas fa-code"></i></a></li> */}
+                        <li><a href="mailto: veehighsmith@gmail.com" target="_blank"><i className="fas fa-at"></i></a></li>
                     </ul>
                 </footer>
             </>

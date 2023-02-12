@@ -6802,7 +6802,7 @@ body {
               transition: .2s ease-in-out;
               padding: 5px; }
             body .hero-body#home .landing .contact li:hover a {
-              color: #ff5951; }
+              opacity: .5; }
         body .hero-body#home .landing p {
           color: #1c1b20 !important;
           font-size: 16px;
@@ -7111,6 +7111,10 @@ body {
           color: #1c1b20; }
         body .hero-body #featured .card .project-desc .desc {
           line-height: 1.4; }
+        body .hero-body #featured .card .project-desc .links {
+          margin-top: 10px; }
+          body .hero-body #featured .card .project-desc .links a {
+            margin-right: 10px; }
       body .hero-body #featured .card .project-desc > div {
         display: none; }
     body .hero-body #contact .container {
@@ -7296,7 +7300,15 @@ footer {
   #featured {
     padding-top: 20px; }
     #featured .card {
-      padding: 20px; } }
+      padding: 20px; }
+  .box-details .languages {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center; }
+    .box-details .languages span {
+      margin-top: 10px;
+      width: 50%;
+      border: none !important; } }
 
 .floating:before {
   animation-name: floating-before;

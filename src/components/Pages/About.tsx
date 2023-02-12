@@ -36,18 +36,18 @@ const About: React.FC = () => {
                     
                         <div className='columns'>
                           <div className="column is-four-fifths has-text-left align-middle">
-                              <p>Hey! My name is Ezra, I'm a Full Stack/Front-End Developer base out of Denver, CO.</p>
+                              <p>Hey! My name is Veronica, I'm a Front-End/Full Stack Developer base out of Denver, CO.</p>
                               <br/>
-                              <p>My tech career began a few years out of high school, I wanted a career that was stimulating and artistic.</p>
+                              <p>My tech career began a few years out of high school, I wanted a career that was both stimulating and artistic.</p>
                               <br/>
-                              <p>I started where any typical self taught developer would, with Wordpress. After a few years of freelance work, building client sites and custom Wordpress templates, I landed a job at an <a href="https://www.fineartprinting.la
+                              <p>I started where any typical self taught developer would, with Wordpress. After a few years of freelance work, building client sites and custom Wordpress templates, I landed my first official tech job at a <a href="https://www.fineartprinting.la
 
 " target="_blank">startup</a> in Los Angeles.</p>
                               <br/>
-                              <p>After that I went on to work at a <a href="https://www.cision.com/" target="_blank">software company</a>, <a href="https://mjbizdaily.com/" target="_blank">a news outlet</a>, to now at a <a href="https://www.digitalmarketingcompany.com/" target="_blank">digital marketing agency</a>.</p>
+                              <p>From there I went on to work at a <a href="https://www.cision.com/" target="_blank">software company</a>, <a href="https://mjbizdaily.com/" target="_blank">a news outlet</a>, and a <a href="https://www.digitalmarketingcompany.com/" target="_blank">digital marketing agency</a>.</p>
 
                                   <br />
-                                  <p>
+                                  <p> 
                                       I've been working with 
                                       <div
                                           className="slideshowSlider p-relative language"

@@ -338,7 +338,7 @@ body {
                         }
                         &:hover{
                             a{
-                                color:$theme-neon-green;
+                                opacity: .5;
                             }
                         }
                     }
@@ -733,6 +733,12 @@ body {
                     .desc{
                         line-height: 1.4;
                     }
+                    .links {
+                        margin-top:10px;
+                        a{
+                            margin-right:10px;
+                        }
+                    }
                 }
                 .project-desc > div{
                     display: none;
@@ -1055,6 +1061,18 @@ footer {
         padding-top:20px;
         .card{
             padding:20px;
+        }
+    }
+    .box-details{
+        .languages{
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            span{
+                margin-top:10px;
+                width:50%;
+                border:none !important;
+            }
         }
     }
 }
