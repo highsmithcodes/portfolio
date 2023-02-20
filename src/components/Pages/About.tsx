@@ -40,11 +40,11 @@ const About: React.FC = () => {
                               <br/>
                               <p>My tech career began a few years out of high school, I wanted a career that was both stimulating and artistic.</p>
                               <br/>
-                              <p>I started where any typical self taught developer would, with Wordpress. After a few years of freelance work, building client sites and custom Wordpress templates, I landed my first official tech job at a <a href="https://www.fineartprinting.la
+                              <p>I've been fortunte enough to work at a variety of companies throughout my tech journey, from a <a href="https://www.fineartprinting.la
 
-" target="_blank">startup</a> in Los Angeles.</p>
+" target="_blank">startup</a>, a <a href="https://www.cision.com/" target="_blank">software company</a>, a<a href="https://mjbizdaily.com/" target="_blank"> news outlet</a>, and a <a href="https://www.digitalmarketingcompany.com/" target="_blank"> marketing agency</a>.</p>
                               <br/>
-                              <p>From there I went on to work at a <a href="https://www.cision.com/" target="_blank">software company</a>, <a href="https://mjbizdaily.com/" target="_blank">a news outlet</a>, and a <a href="https://www.digitalmarketingcompany.com/" target="_blank">digital marketing agency</a>.</p>
+                              <p>I enjoy what I do and am always learning and evolving my skillset.</p>
 
                                   <br />
                                   <p> 

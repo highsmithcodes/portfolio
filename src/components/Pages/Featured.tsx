@@ -5,7 +5,7 @@ const Featured: React.FC = () => {
 
     // const projects = ["Basement Brew", "Staff Management", "DevWeight"]
     const projectx = [
-        {id: 1, title: 'Staff Portal (Kept)', content: 'Kept is an organizational database of tutorials, docs and department specific updates. Keep your team organized with Kept.', languages: 'React, Firebase and Netflify', git: 'https://github.com/highsmithcodes/employee-management-app', link: 'https://main--symphonious-swan-afb5e0.netlify.app/'},
+        {id: 1, title: 'Kept', content: 'Kept is an organizational database of tutorials, docs and department specific updates. Keep your team organized with Kept.', languages: 'React, Firebase and Netflify', git: 'https://github.com/highsmithcodes/employee-management-app', link: 'https://main--symphonious-swan-afb5e0.netlify.app/'},
         {id: 2, title: 'Basement Brew', content: 'Basement Brew is an online community where home brewers can share, like and comment on other beer recipes in the community.', languages: 'Typescript, React and Firebase', git: 'https://github.com/highsmithcodes/basementbrew'},
         {id: 3, title: 'DevWeight', content: 'DevWeight is an educational platform helping the everyday developer sharpen their skills.', languages: 'React, Sass, JSON and Netflify', git: 'https://github.com/highsmithcodes/dev-tutorials'}
     ];
@@ -15,7 +15,7 @@ const Featured: React.FC = () => {
                 <div className="columns is-mobile">
                     <div className="column is-three-quarters">
                         <h2 className="border-left">Side Projects</h2>
-                        <p>I'm almost always working on a side projects</p>
+                        <p>(I'm almost always working on a side projects)</p>
                         <div className="card columns">
                             
                             <div className="card-description column is-two-fifths">
@@ -40,7 +40,7 @@ const Featured: React.FC = () => {
                                         }}
                                         >
                                             <div className="top">
-                                                <div className="h4 black">{_.title}</div>
+                                                <div className="h4 white">{_.title}</div>
                                                 <div className='desc'>{_.content}</div>
                                                 <br />
                                                 <div className='desc'>Made with: {_.languages}</div> 
