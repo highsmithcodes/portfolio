@@ -36,7 +36,7 @@ const About: React.FC = () => {
                     
                         <div className='columns'>
                           <div className="column is-four-fifths has-text-left align-middle">
-                              <p>Hey! My name is Veronica, I'm a Front-End/Full Stack Developer base out of Denver, CO.</p>
+                              <p>Hey! My name is Veronica, I'm a Front-End | Full Stack Developer based out of Denver, CO.</p>
                               <br/>
                               <p>My tech career began a few years out of high school, I wanted a career that was both stimulating and artistic.</p>
                               <br/>
@@ -44,7 +44,7 @@ const About: React.FC = () => {
 
 " target="_blank">startup</a>, a <a href="https://www.cision.com/" target="_blank">software company</a>, a<a href="https://mjbizdaily.com/" target="_blank"> news outlet</a>, and a <a href="https://www.digitalmarketingcompany.com/" target="_blank"> marketing agency</a>.</p>
                               <br/>
-                              <p>I enjoy what I do and am always learning and evolving my skillset.</p>
+                              <p>I'm a self-motivated and curious developer, who enjoys what they do and likes being a part of a team.</p>
 
                                   <br />
                                   <p> 
