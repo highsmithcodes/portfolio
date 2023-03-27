@@ -9,7 +9,7 @@ const Portfolio: React.FC = () => {
                 <div className="columns is-mobile">
                     <div className="column is-three-quarters">
                         <h2 className="border-left">Recent Work</h2>
-                        
+                        {/* Build on this more */}
                         <Work />
                     </div>
                 </div>
