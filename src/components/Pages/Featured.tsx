@@ -6,7 +6,7 @@ const Featured: React.FC = () => {
     // const projects = ["Basement Brew", "Staff Management", "DevWeight"]
     const projectx = [
         {id: 1, title: 'DevWeight', content: 'DevWeight is an educational platform helping the everyday developer sharpen their skills.', languages: 'React, Sass, JSON and Netflify', git: 'https://github.com/highsmithcodes/dev-tutorials', link: 'https://www.devweight.com/'},
-        {id: 3, title: 'Kept', content: 'Kept is an organizational database of tutorials, docs and department specific updates. Keep your team organized with Kept.', languages: 'React, Firebase and Netflify', git: 'https://github.com/highsmithcodes/employee-management-app', link: 'https://main--symphonious-swan-afb5e0.netlify.app/login'},
+        {id: 3, title: 'Kept', content: 'Kept is an organizational database of tutorials, docs and department specific updates. Keep your team organized with Kept.', languages: 'React, Firebase and Netflify', git: 'https://github.com/highsmithcodes/employee-management-app', link: 'https://main--symphonious-swan-afb5e0.netlify.app/'},
         {id: 2, title: 'Basement Brew', content: 'Basement Brew is an online community where home brewers can share, like and comment on other beer recipes in the community.', languages: 'Typescript, React and Firebase', git: 'https://github.com/highsmithcodes/basementbrew'}
     ];
     return (
