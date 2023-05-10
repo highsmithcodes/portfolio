@@ -36,7 +36,7 @@ const About: React.FC = () => {
                     
                         <div className='columns'>
                           <div className="column is-four-fifths has-text-left align-middle">
-                              <p>Hey! My name is Veronica, I'm a Front-End | Full Stack Developer based out of Denver, CO.</p>
+                              <p>Hey! My name is Ezra, I'm a Front-End | Full Stack Developer based out of Denver, CO.</p>
                               <br/>
                               <p>My tech career began a few years out of high school, I wanted a career that was both stimulating and artistic.</p>
                               <br/>

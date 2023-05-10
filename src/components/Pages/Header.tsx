@@ -11,14 +11,14 @@ const Header: React.FC = () => {
             <div className="container landing-container floating">
                 <div className="columns is-mobile">
                     <div className="column is-three-quarters landing">
-                        <h1>Veronica Highsmith <br />
+                        <h1>Ezra Highsmith <br />
                             <span>Front-End Developer</span>
                         </h1>
                         {/* <a className="button pink" href="mailto:ezrahighsmith@gmail.com">Let's Connect</a> */}
                         <ul className="contact">
                             <li><a href="https://github.com/highsmithcodes" target="_blank"><i className="fab fa-github"></i></a></li>
                             {/* <li><a href="https://codepen.io/highsmithcodes" target="_blank"><i className="fas fa-code"></i></a></li> */}
-                            <li><a href="mailto: veehighsmith@gmail.com" target="_blank"><i className="fas fa-at"></i></a></li>
+                            <li><a href="mailto: ezrahighsmith@gmail.com" target="_blank"><i className="fas fa-at"></i></a></li>
                         </ul>
                     </div>
                 </div>
