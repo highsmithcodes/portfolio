@@ -20,15 +20,15 @@ const Menu: React.FC = (props) => {
                 <nav role="navigation" aria-label="main navigation">
                     <div className="nav-container">
                         <div className="navbar-brand">
-                            <a className="navbar-item" href="#">
-                                <img src={logo} alt="site logo"></img>
+                            <a className="navbar-item white light" href="#">
+                                HighsmithCodes
                             </a>
                         </div>
                         <div className="desktop-nav">
                             <ul className="menu">
                                 <li className="navbar-item"><a href="#home">Home</a></li>
-                                <li className="navbar-item"><a href="#about">About</a></li>
-                                <li className="navbar-item"><a href="#portfolio">Work</a></li>
+                                {/* <li className="navbar-item"><a href="#about">About</a></li> */}
+                                <li className="navbar-item"><a href="#featured">Portfolio</a></li>
                                 <li className="navbar-item"><a href="#contact">Contact</a></li>
                             </ul>
                         </div>
@@ -44,8 +44,8 @@ const Menu: React.FC = (props) => {
                              <i className="fas fa-times"></i>
                                 <ul className="menu">
                                 <li><a href="#home">Home</a></li>
-                                <li><a href="#about">About</a></li>
-                                <li><a href="#portfolio">Work</a></li>
+                                {/* <li><a href="#about">About</a></li> */}
+                                <li><a href="#featured">Portfolio</a></li>
                                 <li><a href="#contact">Contact</a></li>
                                 </ul>
                             </div>
@@ -71,12 +71,7 @@ const Menu: React.FC = (props) => {
                     ))}
                 </section>
                 <footer>
-                    <div className="copyright"><b>Designed & Built by Veronica Highsmith</b></div>
-                    <ul className="contact">
-                        <li><a href="https://github.com/highsmithcodes" target="_blank"><i className="fab fa-github"></i></a></li>
-                        {/* <li><a href="https://codepen.io/highsmithcodes" target="_blank"><i className="fas fa-code"></i></a></li> */}
-                        <li><a href="mailto: veehighsmith@gmail.com" target="_blank"><i className="fas fa-at"></i></a></li>
-                    </ul>
+                    <div className="copyright">Designed & Built by Ezra Highsmith</div>
                 </footer>
             </>
         </Router >
