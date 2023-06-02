@@ -6630,6 +6630,8 @@ body {
     color: #000 !important; }
   body .p-0 {
     padding: 0 !important; }
+  body i {
+    margin-bottom: 8px; }
   body h1,
   body h2,
   body h3,
@@ -6664,6 +6666,11 @@ body {
     text-align: center; }
   body .column {
     overflow: hidden; }
+  body .d-flex-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; }
   body .column.is-half {
     margin: 0 auto;
     text-align: left; }
@@ -6686,6 +6693,7 @@ body {
     flex-direction: row;
     justify-content: end;
     padding-top: 80px;
+    flex-wrap: wrap;
     align-items: center; }
     body .stack li {
       padding-right: 20px; }
@@ -6745,7 +6753,11 @@ body {
             font-size: 14px;
             font-weight: 400; }
     body .nav-container .navbar-brand {
-      font-weight: bold; }
+      display: flex;
+      align-items: center;
+      justify-content: center; }
+      body .nav-container .navbar-brand i {
+        margin-bottom: 0; }
       body .nav-container .navbar-brand img {
         max-height: none;
         height: 60px;
@@ -6753,7 +6765,8 @@ body {
       body .nav-container .navbar-brand a {
         color: #283D3B;
         font-size: 16px;
-        margin: 0 auto; }
+        margin: 0 auto;
+        font-weight: 300 !important; }
   body .sub-title {
     color: #1c1b20;
     font-family: 'Quicksand', sans-serif;
@@ -7081,9 +7094,20 @@ body {
       body .hero-body #featured .card .labels p {
         font-weight: 600;
         color: #f8f8f8; }
+      body .hero-body #featured .card .box {
+        position: relative; }
+        body .hero-body #featured .card .box:after {
+          content: '';
+          width: 100%;
+          height: 10px;
+          background: #fff;
+          position: absolute;
+          bottom: 0;
+          left: 0; }
       body .hero-body #featured .card .card-description {
         color: #343438;
-        height: 280px; }
+        height: 280px;
+        padding: 0 !important; }
         body .hero-body #featured .card .card-description img {
           min-height: 280px;
           position: relative;
@@ -7163,6 +7187,10 @@ body {
         display: flex; }
         body .hero-body #featured .card:nth-child(3) > div {
           margin-left: 15px; }
+    body .hero-body #featured .box {
+      border-radius: 1.5rem;
+      border: 1px solid #e4e4e4;
+      box-shadow: none; }
     body .hero-body #featured .links {
       margin-top: 40px;
       display: flex;
@@ -7171,7 +7199,8 @@ body {
       align-items: center; }
       body .hero-body #featured .links a {
         padding: 0 20px;
-        color: #000; }
+        color: #000;
+        font-weight: 300; }
     body .hero-body #featured p {
       color: #000;
       position: relative;
@@ -7192,12 +7221,13 @@ body {
       margin-top: 30px;
       display: flex;
       flex-direction: row;
-      justify-content: space-around; }
+      justify-content: center; }
       body .hero-body #contact .contact li {
-        margin-right: 10px; }
+        margin-right: 10px;
+        padding: 0 20px; }
         body .hero-body #contact .contact li a {
           color: #1c1b20;
-          font-size: 26px;
+          font-size: 18px;
           transition: .2s ease-in-out;
           padding: 5px; }
   body .column.is-half,
@@ -7213,10 +7243,10 @@ body {
     line-height: 4; }
     .mobile-nav li a {
       font-size: 18px;
-      color: #1c1b20;
+      color: #fff;
       font-weight: 600; }
   .mobile-nav i.fas.fa-bars {
-    font-size: 45px;
+    font-size: 35px;
     color: #fff; }
   .mobile-nav .navbar-burger {
     color: #283D3B !important; }
@@ -7236,8 +7266,7 @@ body {
     min-width: 300px;
     height: 100vh;
     outline: 0px;
-    background-color: #fff;
-    box-shadow: -10px 0px 30px -15px #000;
+    background-color: #000;
     z-index: 9;
     transform: translateX(0vw);
     visibility: visible; }
@@ -7249,8 +7278,8 @@ body {
     position: absolute;
     top: 10px;
     right: 10px;
-    font-size: 45px;
-    color: #1c1b20; }
+    font-size: 35px;
+    color: #fff; }
 
 footer {
   background: #1c1b20;

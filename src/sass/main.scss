@@ -83,6 +83,9 @@ body {
         color:#000 !important;
     }
     .p-0{padding: 0 !important;}
+    i {
+        margin-bottom: 8px;
+    }
     h1,
     h2,
     h3,
@@ -134,7 +137,12 @@ body {
     .column {
         overflow: hidden;
     }
-    
+    .d-flex-row{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
     .column.is-half {
         margin: 0 auto;
         text-align: left;
@@ -164,6 +172,7 @@ body {
         flex-direction: row;
         justify-content: end;
         padding-top:80px;
+        flex-wrap: wrap;
         align-items: center;
         li{padding-right: 20px;}
         i{font-size: 28px;color:#000;}
@@ -256,8 +265,12 @@ body {
 
         }
         .navbar-brand {
-            font-weight: bold;
-
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            i{
+                margin-bottom: 0;
+            }
             img {
                 max-height: none;
                 height: 60px;
@@ -268,6 +281,7 @@ body {
                 color: $theme-green;
                 font-size: 16px;
                 margin: 0 auto;
+                font-weight: 300 !important;
             }
         }
     }
@@ -683,10 +697,20 @@ body {
                         color:$theme-black;
                     }
                 }
-                
+                .box{position: relative;&:after{
+                    content: '';
+                    width: 100%;
+                    height: 10px;
+                    background: #fff;
+                    position: absolute;
+                    bottom: 0;
+                    left: 0;
+                }}
                 .card-description{
                     color:$dark_grey;
                     height: 280px;
+                    padding: 0 !important;
+                    
                     img{min-height: 280px;
                         position: relative;
                         object-fit: cover;
@@ -791,6 +815,8 @@ body {
                     }
                 }
             }
+            .box{border-radius: 1.5rem;
+                border: 1px solid #e4e4e4;box-shadow: none;}
             .links {
                 margin-top:40px;
                 display: flex;
@@ -800,6 +826,7 @@ body {
                 a{
                     padding:0 20px;
                     color:#000;
+                    font-weight: 300;
                 }
             }
             p{
@@ -830,11 +857,12 @@ body {
                 margin-top:30px;
                 display: flex;
                 flex-direction: row;
-                justify-content: space-around;
+                justify-content: center;
                 li{margin-right: 10px;
+                    padding:0 20px;
                     a{
                         color: #1c1b20;
-font-size: 26px;
+font-size: 18px;
 transition: .2s ease-in-out;
 padding: 5px;
                     }
@@ -861,13 +889,13 @@ padding: 5px;
         line-height: 4;
         a{
             font-size: 18px;
-            color: $theme-white;
+            color: #fff;
             font-weight: 600;
         }
     }
 
     i.fas.fa-bars{
-        font-size: 45px;
+        font-size: 35px;
         color:#fff;
     }
     .navbar-burger {
@@ -891,8 +919,8 @@ padding: 5px;
         min-width: 300px;
         height: 100vh;
         outline: 0px;
-        background-color: #fff;
-        box-shadow: -10px 0px 30px -15px #000;
+        background-color: #000;
+        // box-shadow: -10px 0px 30px -15px #000;
         z-index: 9;
         transform: translateX(0vw);
         visibility: visible;
@@ -908,8 +936,8 @@ padding: 5px;
         position: absolute;
         top: 10px;
         right: 10px;
-        font-size: 45px;
-        color:#1c1b20;
+        font-size: 35px;
+        color:#fff;
     }
 }
 
