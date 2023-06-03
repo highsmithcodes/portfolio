@@ -11,9 +11,10 @@ const Header: React.FC = () => {
             <div className="container landing-container floating">
                 <div className="columns is-mobile">
                     <div className="column is-three-quarters landing">
-                        <h1>Front-End Developer <br />
+                        <h1>Front-End | Full Stack Developer <br />
                             <span>Ezra Highsmith</span>
                         </h1>
+                        <p>Passionate developer with 7 years of professional injustry experience.</p>
                         {/* <a className="button pink" href="mailto:ezrahighsmith@gmail.com">Let's Connect</a> */}
                         <ul className="contact">
                             <li><a href="https://github.com/highsmithcodes" target="_blank"><i className="fab fa-github"></i></a></li>
