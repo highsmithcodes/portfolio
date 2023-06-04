@@ -10,3 +10,4 @@ Welcome to my Portfolio
 ![kept-home-pink](https://github.com/highsmithcodes/portfolio/assets/17016293/ce3f843d-84aa-4dcd-94fc-e2da984e17a6)
 
 ![cannabis](https://github.com/highsmithcodes/portfolio/assets/17016293/f266ab87-ec70-4869-8a93-f1093a4e7ec1)
+![kept-landing-2023](https://github.com/highsmithcodes/portfolio/assets/17016293/0d636155-6c58-440c-bfef-9449b9575eb9)
