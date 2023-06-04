@@ -20,6 +20,7 @@ const Header: React.FC = () => {
                             <li><a href="https://github.com/highsmithcodes" target="_blank"><i className="fab fa-github"></i></a></li>
                             {/* <li><a href="https://codepen.io/highsmithcodes" target="_blank"><i className="fas fa-code"></i></a></li> */}
                             <li><a href="mailto: ezrahighsmith@gmail.com" target="_blank"><i className="fa-solid fa-envelope"></i></a></li>
+                            <li><a href="https://www.linkedin.com/in/veronica-highsmith-07a04787/" target="_blank"><i className="fa-brands fa-linkedin"></i></a></li>
                         </ul>
                         <ul className="stack">
                             <li className='black'>Experience with:</li>

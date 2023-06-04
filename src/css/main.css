@@ -7179,6 +7179,9 @@ body {
         display: flex; }
         body .hero-body #featured .card:nth-child(3) > div {
           margin-left: 15px; }
+      body .hero-body #featured .card:nth-child(4) .card-description img {
+        object-position: center;
+        transform: scale(1); }
     body .hero-body #featured .box {
       border-radius: 1.5rem;
       border: 1px solid #e4e4e4;
@@ -7402,6 +7405,14 @@ footer {
     padding-top: 20px; }
     #featured .card {
       padding: 20px; }
+    #featured .box {
+      margin-top: 40px !important; }
+    #featured .card-description img {
+      min-height: 280px;
+      position: relative;
+      object-fit: cover !important;
+      object-position: center !important;
+      transform: scale(1) !important; }
   .box-details {
     padding: 20px 5px  !important; }
     .box-details .languages {
