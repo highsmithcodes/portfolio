@@ -7408,7 +7408,7 @@ footer {
     #featured .box {
       margin-top: 40px !important; }
     #featured .card-description img {
-      min-height: 280px;
+      min-height: 200px !important;
       position: relative;
       object-fit: cover !important;
       object-position: center !important;
