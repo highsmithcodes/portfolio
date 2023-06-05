@@ -11,3 +11,4 @@ Welcome to my Portfolio
 
 ![cannabis](https://github.com/highsmithcodes/portfolio/assets/17016293/f266ab87-ec70-4869-8a93-f1093a4e7ec1)
 ![kept-landing-2023](https://github.com/highsmithcodes/portfolio/assets/17016293/0d636155-6c58-440c-bfef-9449b9575eb9)
+![headshot](https://github.com/highsmithcodes/portfolio/assets/17016293/7edaa61c-808b-4155-b934-c33d9fba0fa8)
