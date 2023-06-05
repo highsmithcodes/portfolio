@@ -11,10 +11,17 @@ const Header: React.FC = () => {
             <div className="container landing-container floating">
                 <div className="columns is-mobile">
                     <div className="column is-three-quarters landing">
-                        <h1>Front-End | Full Stack Developer <br />
-                            <span>Ezra Highsmith</span>
-                        </h1>
-                        <p>Passionate developer with 7 years of professional injustry experience.</p>
+                        <div style={{ display: 'flex', flexDirection : 'row' }} className='landing-title'>
+                            <div style={{ display: 'flex', justifyContent : 'center', alignItems: 'start', flexDirection: 'column' }}>
+                            <h1>Front-End | Full Stack Developer <br />
+                                <span>Ezra Highsmith</span>
+                            </h1>
+                            <p>Passionate developer with 7 years of professional injustry experience.</p>
+                            </div>
+                            <div style={{ display: 'flex', justifyContent : 'center', alignItems: 'center' }}>
+                                <img className="headshot" style={{ height: '250px', width : '250px' }} src='https://github.com/highsmithcodes/portfolio/assets/17016293/7edaa61c-808b-4155-b934-c33d9fba0fa8' alt="Trees" height="120" />
+                            </div>
+                        </div>
                         {/* <a className="button pink" href="mailto:ezrahighsmith@gmail.com">Let's Connect</a> */}
                         <ul className="contact">
                             <li><a href="https://github.com/highsmithcodes" target="_blank"><i className="fab fa-github"></i></a></li>

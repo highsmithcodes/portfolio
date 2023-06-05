@@ -7347,11 +7347,18 @@ footer {
       #featured .card:nth-child(3) > div {
         margin-left: 0; } }
 
+@media screen and (max-width: 1400px) {
+  .headshot {
+    height: auto !important; } }
+
 @media screen and (max-width: 600px) {
   .columns .column {
     flex: 0 0 100%;
     height: auto !important;
     min-height: 200px; }
+  .landing .landing-title {
+    flex-direction: column !important;
+    align-items: start; }
   .language {
     top: 12px !important; }
   .years {

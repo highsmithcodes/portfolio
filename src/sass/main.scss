@@ -1079,11 +1079,13 @@ footer {
     //         align-items: flex-end;
     //     }
     // }
+
+}
+@media screen and (max-width: '1400px') {
+    .headshot{height: auto !important;}
 }
 
-
 @media screen and (min-width: $medium) {
-
 }
 
 
@@ -1095,6 +1097,7 @@ footer {
             min-height: 200px;
         }
     }
+    .landing .landing-title{flex-direction: column !important;align-items: start;}
     .language{
         top: 12px !important;
     }
