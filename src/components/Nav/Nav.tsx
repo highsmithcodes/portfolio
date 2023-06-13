@@ -21,7 +21,7 @@ const Menu: React.FC = (props) => {
                     <div className="nav-container">
                         <div className="navbar-brand">
                             <a className="navbar-item white light" href="#">
-                                HighsmithCodes
+                                <img src={logo}></img>
                             </a>
                         </div>
                         <div className="desktop-nav">
@@ -29,7 +29,7 @@ const Menu: React.FC = (props) => {
                                 <li className="navbar-item"><a href="#home">Home</a></li>
                                 {/* <li className="navbar-item"><a href="#about">About</a></li> */}
                                 <li className="navbar-item"><a href="#featured">Portfolio</a></li>
-                                <li className="navbar-item"><a href="#contact">Contact</a></li>
+                                <li className="navbar-item"><a href="#blog">Blog</a></li>
                             </ul>
                         </div>
       
@@ -46,7 +46,7 @@ const Menu: React.FC = (props) => {
                                 <li><a href="#home">Home</a></li>
                                 {/* <li><a href="#about">About</a></li> */}
                                 <li><a href="#featured">Portfolio</a></li>
-                                <li><a href="#contact">Contact</a></li>
+                                <li><a href="#blog">Blog</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -71,7 +71,25 @@ const Menu: React.FC = (props) => {
                     ))}
                 </section>
                 <footer>
-                    <div className="copyright">Designed & Built by Ezra Highsmith</div>
+                    <div className="copyright">© {(new Date().getFullYear())} Highsmith Codes. All rights reserved.</div>
+                    <ul className="contact text-center">
+                        <li>
+                            <a href="https://github.com/highsmithcodes" target="_blank" className="d-flex-row">
+                                <i className="fab fa-github"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="mailto: ezrahighsmith@gmail.com" target="_blank" className="d-flex-row">
+                                <i className="fa-solid fa-envelope"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/in/veronica-highsmith-07a04787/" target="_blank" className="d-flex-row">
+                                <i className="fa-brands fa-linkedin"></i>
+                            </a>
+                        </li>
+
+                    </ul>
                 </footer>
             </>
         </Router >

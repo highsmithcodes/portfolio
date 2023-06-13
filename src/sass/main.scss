@@ -57,6 +57,8 @@ $medium: 900px;
     background: $theme-neon-green;
     color:#fff;
 }
+
+
 body {
     // background: linear-gradient(180deg, $theme-blue 0%, $theme-black 100%);
     background: #fff;
@@ -121,6 +123,10 @@ body {
         font-weight: bold;
         text-align:center;
     }
+    h3, .h3 {
+        font-size: 24px;
+        padding-bottom: 10px;
+    }
     h4, .h4 {
         font-size: 26px;
         padding-bottom: 10px;
@@ -147,6 +153,17 @@ body {
         margin: 0 auto;
         text-align: left;
     }
+    .flex-row{
+        display: flex;
+        flex-direction: row;
+    }
+    .column-is-third{
+        width: 32%;
+        padding-right:20px;
+        &:last-child{
+            padding-right: 0;
+        }
+    }
     
     h2 {
         position:relative;
@@ -166,6 +183,7 @@ body {
         min-height: 100vh;
         padding: 0px;
         position: relative;
+        z-index: 1;
     }
     .stack{
         display: flex;
@@ -212,6 +230,24 @@ body {
     .align-middle{
         display: flex;
         align-items: center;
+    }
+    .posts{
+        z-index: 1;
+        .posts-inner{
+            z-index: 9999;
+            margin-top:40px;
+            .post{
+                text-align: left;
+                
+                .meta{
+                    padding-bottom: 20px;
+                    font-size: 12px;
+                }
+            }
+        }
+        .tags{
+            margin-top:10px;
+        }
     }
 
     @mixin label($display: block, $pos: absolute, $left: 0%, $right: 0%, $color: $light_black, $font-size: 30em, $font-weight: bold, $text-transform: uppercase, $z-index: -2, $opacity: 0.2) {
@@ -718,6 +754,7 @@ body {
     transform: scale(1.3);}
                     .desc {
                         line-height: 1.5;
+                        color:#57575a;
                         }
                     ul {
                         li{
@@ -973,7 +1010,9 @@ footer {
     padding: 10px;
     color: $theme-black;
     padding:15px;
-    .copyright{color:$theme-black;font-weight: 300;}
+    display: flex;
+    justify-content: space-between;
+    .copyright{color:$theme-black;font-weight: 300;display: flex;align-items: center;justify-content: center;}
 
     h4 {
         font-weight: bold;
@@ -988,6 +1027,7 @@ footer {
             i {
                 color: $theme-black;
                 transition: .2s ease-in-out;
+                margin-bottom:0;
             }
 
             &:hover {
@@ -1005,6 +1045,13 @@ footer {
         .column {
             flex: 0 0 45%;
         }
+    }
+    .posts-inner{
+        flex-direction: column !important;
+    }
+    .column-is-third{
+        width: 100% !important;
+        padding-bottom: 40px;
     }
     .hero-body{
         padding: 3rem 0.5rem;
@@ -1141,14 +1188,9 @@ footer {
     }
 
     footer {
-        display: block;
+        flex-direction: column;
         h4{
             color:$theme-white;
-        }
-        li{
-            i:before{
-                color:$theme-white;
-            }
         }
     }
     .navbar-item{
