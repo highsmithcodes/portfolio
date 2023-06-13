@@ -815,6 +815,20 @@ body {
                         margin-left: 15px;
                     }
                 }
+                &:nth-child(5){
+                    flex-direction: row-reverse;
+                    display: flex;
+                  >  div{
+                        margin-left: 15px;
+                    }
+                }
+                &:nth-child(7){
+                    flex-direction: row-reverse;
+                    display: flex;
+                  >  div{
+                        margin-left: 15px;
+                    }
+                }
                 &:nth-child(4){
                     .card-description{
                         
@@ -830,12 +844,15 @@ body {
                 margin-top:40px;
                 display: flex;
                 flex-direction: row;
-                justify-content: center;
+                justify-content: start;
                 align-items: center;
                 a{
-                    padding:0 20px;
+                    padding-right:20px;
                     color:#000;
                     font-weight: 300;
+                }
+                span{
+                    font-size: 12px;
                 }
             }
             p{
@@ -1063,6 +1080,24 @@ footer {
         .card {
             margin-top: 0px !important;
             &:nth-child(3){
+                flex-direction: column !important;
+                display: flex;
+                
+                  >  div{
+                        margin-left: 0;
+                    }
+                
+            }
+            &:nth-child(5){
+                flex-direction: column !important;
+                display: flex;
+                
+                  >  div{
+                        margin-left: 0;
+                    }
+                
+            }
+            &:nth-child(7){
                 flex-direction: column !important;
                 display: flex;
                 
