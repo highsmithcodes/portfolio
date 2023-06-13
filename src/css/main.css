@@ -7126,9 +7126,7 @@ body {
         body .hero-body #featured .card .card-description img {
           min-height: 280px;
           position: relative;
-          object-fit: contain;
-          object-position: 0% 31px;
-          transform: scale(1.3); }
+          object-fit: cover; }
         body .hero-body #featured .card .card-description .desc {
           line-height: 1.5;
           color: #57575a; }
