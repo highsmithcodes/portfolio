@@ -19,7 +19,7 @@ const Header: React.FC = () => {
                             <p>Passionate developer with 7 years of professional industry experience. Likes board games, house plants, kayaking and beer.</p>
                             </div>
                             <div style={{ display: 'flex', justifyContent : 'center', alignItems: 'center' }}>
-                                <img className="headshot" style={{ height: '250px', width : '250px' }} src='https://github.com/highsmithcodes/portfolio/assets/17016293/7edaa61c-808b-4155-b934-c33d9fba0fa8' alt="Trees" height="120" />
+                                <img className="headshot" style={{ height: 'auto', width : '250px' }} src='https://github.com/highsmithcodes/portfolio/assets/17016293/7edaa61c-808b-4155-b934-c33d9fba0fa8' alt="Trees" height="120" />
                             </div>
                         </div>
                         {/* <a className="button pink" href="mailto:ezrahighsmith@gmail.com">Let's Connect</a> */}
