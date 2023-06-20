@@ -7,20 +7,18 @@ import Contact from './Contact';
 
 const Header: React.FC = () => {
     return (
+        <>
         <div className="hero-body" id="home">
             <div className="container landing-container floating">
                 <div className="columns is-mobile">
                     <div className="column is-three-quarters landing">
-                        <div style={{ display: 'flex', flexDirection : 'row' }} className='landing-title'>
+                        <div style={{ display: 'flex', flexDirection : 'row', justifyContent: 'space-between', alignItems: 'start' }} className='landing-title'>
                             <div style={{ display: 'flex', justifyContent : 'center', alignItems: 'start', flexDirection: 'column' }}>
-                            <h1>Front-End | Full Stack Developer <br />
-                                <span>Ezra Highsmith</span>
+                            <h1>Ezra Highsmith<br />
+                                <span>Front-End & Full Stack Developer</span>
                             </h1>
-                            <p>Passionate developer with 7 years of professional industry experience. Likes board games, house plants, kayaking and beer.</p>
-                            </div>
-                            <div style={{ display: 'flex', justifyContent : 'center', alignItems: 'center' }}>
-                                <img className="headshot" style={{ height: 'auto', width : '250px' }} src='https://github.com/highsmithcodes/portfolio/assets/17016293/7edaa61c-808b-4155-b934-c33d9fba0fa8' alt="Trees" height="120" />
-                            </div>
+                            <div style={{ marginTop: '20px', marginBottom: '20px' }}>
+                            <a className="button big" target="_blank" href="https://drive.google.com/file/d/1IZ8k9GeTV0P5oCUoLoZK3Gz0lcTG-2Ob/view?usp=drive_link">Resume</a> 
                         </div>
                         {/* <a className="button pink" href="mailto:ezrahighsmith@gmail.com">Let's Connect</a> */}
                         <ul className="contact">
@@ -29,27 +27,22 @@ const Header: React.FC = () => {
                             <li><a href="mailto: ezrahighsmith@gmail.com" target="_blank"><i className="fa-solid fa-envelope"></i></a></li>
                             <li><a href="https://www.linkedin.com/in/veronica-highsmith-07a04787/" target="_blank"><i className="fa-brands fa-linkedin"></i></a></li>
                         </ul>
-                        <ul className="stack">
-                            <li className='black'>Experience with:</li>
-                            <li><i className="fa-brands fa-js"></i></li>
-                            <li><i className="fab fa-react"></i></li>
-                            {/* <li><a href="https://codepen.io/highsmithcodes" target="_blank"><i className="fas fa-code"></i></a></li> */}
-                            <li><i className="fab fa-sass"></i></li>
-                            <li><i className="fab fa-node"></i></li>
-                            <li><i className="fa-brands fa-aws"></i></li>
-                            <li><i className="fa-brands fa-npm"></i></li>
-                            <li><i className="fa-brands fa-git-alt"></i></li>
-                            <li><i className="fa-solid fa-database"></i></li>
-                        </ul>
+                            </div>
+                            <div style={{ display: 'flex', justifyContent : 'center', alignItems: 'center' }}>
+                                <img className="headshot" style={{ height: 'auto', width : '250px' }} src='https://github.com/highsmithcodes/portfolio/assets/17016293/7edaa61c-808b-4155-b934-c33d9fba0fa8' alt="Trees" height="120" />
+                            </div>
+                        </div>
+                      
+
                     </div>
                 </div>
             </div>
-            {/* <About /> */}
+            <About />
             <Featured />
             {/* <Portfolio /> */}
             <Contact />
         </div>
-        
+        </>
     );
 }
 

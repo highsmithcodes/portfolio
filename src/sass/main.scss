@@ -104,6 +104,7 @@ body {
         font-family: 'Quicksand', sans-serif;
 
         color:$theme-white;
+        padding-top:10px;
         // font-family: 'Lato', sans-serif;
 
 
@@ -397,6 +398,7 @@ body {
                     color: $theme-white;
                     font-family: 'Quicksand', sans-serif;
                     font-weight: 300;
+                    font-size: 32px;
                 }
 
                 .contact{
@@ -917,7 +919,7 @@ body {
             .contact{
                 margin-top:30px;
                 display: flex;
-                flex-direction: row;
+                flex-direction: column;
                 justify-content: center;
                 li{margin-right: 10px;
                     padding:0 20px;

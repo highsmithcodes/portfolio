@@ -6644,7 +6644,8 @@ body {
   body p {
     line-height: 1.6;
     font-family: 'Quicksand', sans-serif;
-    color: #1c1b20; }
+    color: #1c1b20;
+    padding-top: 10px; }
   body .hide-header {
     display: none !important; }
   body h1 {
@@ -6850,7 +6851,8 @@ body {
         body .hero-body#home .landing span {
           color: #1c1b20;
           font-family: 'Quicksand', sans-serif;
-          font-weight: 300; }
+          font-weight: 300;
+          font-size: 32px; }
         body .hero-body#home .landing .contact {
           display: flex;
           margin-top: 10px; }
@@ -7250,7 +7252,7 @@ body {
     body .hero-body #contact .contact {
       margin-top: 30px;
       display: flex;
-      flex-direction: row;
+      flex-direction: column;
       justify-content: center; }
       body .hero-body #contact .contact li {
         margin-right: 10px;
