@@ -97,6 +97,9 @@ body {
         font-family: $font-stack;
         font-weight: normal;
         z-index: 1;
+        a{
+            font-size: 16px;
+        }
     }
 
     p{
@@ -721,7 +724,7 @@ body {
 
         // Featured Section
         #featured{
-            h2{padding-bottom: 40px;margin-left: -12px;}
+            h2{padding-bottom: 60px;margin-left: -12px;}
             .card{
                 margin-bottom:120px;
                 width: 100%;
@@ -748,6 +751,8 @@ body {
                     color:$dark_grey;
                     height: 280px;
                     padding: 0 !important;
+                    display: flex;
+                    align-items: center;
                     
                     img{min-height: 280px;
                         position: relative;
@@ -877,12 +882,16 @@ body {
             }
             .box{border-radius: 1.5rem;
                 border: 1px solid #e4e4e4;box-shadow: none;}
+            // .h4{display: flex;justify-content: start;align-items: center;}
             .links {
-                margin-top:40px;
+                
                 display: flex;
-                flex-direction: row;
-                justify-content: start;
-                align-items: center;
+                flex-direction: column;
+                justify-content: center;
+                align-items: start;
+                i{
+                    margin-right: 5px;
+                }
                 a{
                     padding-right:20px;
                     color:#000;
@@ -1270,7 +1279,7 @@ footer {
             padding:20px;
         }
         .box{
-            margin-top:40px !important;
+            margin-top:0px !important;
         }
         .card-description{
             img{

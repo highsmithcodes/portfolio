@@ -6641,6 +6641,12 @@ body {
     font-family: "Roboto", sans-serif;
     font-weight: normal;
     z-index: 1; }
+    body h1 a,
+    body h2 a,
+    body h3 a,
+    body h4 a,
+    body .h4 a {
+      font-size: 16px; }
   body p {
     line-height: 1.6;
     font-family: 'Quicksand', sans-serif;
@@ -7110,7 +7116,7 @@ body {
       body .hero-body #work button.active:after {
         background-color: #1873e9; }
     body .hero-body #featured h2 {
-      padding-bottom: 40px;
+      padding-bottom: 60px;
       margin-left: -12px; }
     body .hero-body #featured .card {
       margin-bottom: 120px;
@@ -7124,7 +7130,9 @@ body {
       body .hero-body #featured .card .card-description {
         color: #343438;
         height: 280px;
-        padding: 0 !important; }
+        padding: 0 !important;
+        display: flex;
+        align-items: center; }
         body .hero-body #featured .card .card-description img {
           min-height: 280px;
           position: relative;
@@ -7222,11 +7230,12 @@ body {
       border: 1px solid #e4e4e4;
       box-shadow: none; }
     body .hero-body #featured .links {
-      margin-top: 40px;
       display: flex;
-      flex-direction: row;
-      justify-content: start;
-      align-items: center; }
+      flex-direction: column;
+      justify-content: center;
+      align-items: start; }
+      body .hero-body #featured .links i {
+        margin-right: 5px; }
       body .hero-body #featured .links a {
         padding-right: 20px;
         color: #000;
@@ -7469,7 +7478,7 @@ footer {
     #featured .card {
       padding: 20px; }
     #featured .box {
-      margin-top: 40px !important; }
+      margin-top: 0px !important; }
     #featured .card-description img {
       min-height: 200px !important;
       position: relative;
