@@ -38,9 +38,9 @@ const About: React.FC = () => {
                                   <li><i className="fab fa-node"></i></li>
                                   <li><i className="fa-brands fa-aws"></i></li>
                                   <li><i className="fa-brands fa-npm"></i></li>
+                                  <li><i className="fa-brands fa-python"></i></li>
                                   <li><i className="fa-brands fa-git-alt"></i></li>
-                                  <li><i className="fa-solid fa-database"></i></li>
-                              </ul>
+                                  <li><i className="fa-solid fa-database"></i></li>                              </ul>
                               </div>                              
                         </div>
                     </div>

@@ -295,7 +295,7 @@ body {
 
                 li {
                     display: flex;
-                    padding: 0 40px;
+                    padding: 0 10px;
 
                     a{
                         color: $theme-black;
@@ -387,8 +387,7 @@ body {
 
                 .contact{
                     display: flex;
-                    margin-top:10px;
-                    padding-bottom: 50px;
+                    padding-left: 10px;
                     li{
                         margin-right:10px;
                         a{
@@ -396,6 +395,7 @@ body {
                             font-size: 20px;
                             transition: .2s ease-in-out;
                             padding:5px;
+                            i{margin-bottom: 0 !important;}
                         }
                     }
                 }
@@ -932,9 +932,20 @@ padding: 5px;
     }
 
 }
-
-
-
+.js-yearly-contributions {
+    text-align: left;
+    display: flex;
+    justify-content: start;
+}
+h2.f4.text-normal.mb-2{
+    padding-bottom: 20px;
+    font-weight: 400;
+    text-align: left !important;
+    font-size: 14px !important;
+}
+.js-calendar-graph{text-align: left !important;}
+.width-full.f6.px-0.px-md-5.py-1{display: none;}
+text.ContributionCalendar-label{font-size: 10px;}
 // Mobile Styling 
 .mobile-nav {
     position: relative;
@@ -1187,6 +1198,10 @@ footer {
     }
     .navbar-item{
         padding-left:0;
+    }
+    .js-yearly-GitHub{
+        margin-top: 50px;
+        overflow-y: auto;
     }
 
     .mobile-nav {
