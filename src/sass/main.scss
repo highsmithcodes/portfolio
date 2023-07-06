@@ -1124,6 +1124,8 @@ footer {
             flex: 0 0 45%;
         }
     }
+    .layout-container {
+        display: block !important;}
     .posts-inner{
         flex-direction: column !important;
     }

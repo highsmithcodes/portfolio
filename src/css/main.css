@@ -7423,6 +7423,8 @@ footer {
     margin: 0 auto; }
     .columns .column {
       flex: 0 0 45%; }
+  .layout-container {
+    display: block !important; }
   .posts-inner {
     flex-direction: column !important; }
   .column-is-third {
