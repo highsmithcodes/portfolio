@@ -1,103 +1,88 @@
-import React, { useState } from 'react';
-import ReactDOM from 'react-dom'
-import { BrowserRouter as Router, Route, Link, NavLink } from 'react-router-dom';
-import { TransitionGroup, CSSTransition } from "react-transition-group";
-import Header from '../Pages/Header';
-import Portfolio from '../Pages/Portfolio';
-import About from '../Pages/About';
-import logo from '../../img/highsmith-logo-white.png';
+import React, { useState, useEffect } from 'react';
+import { BrowserRouter as Router, NavLink } from 'react-router-dom';
 
-const routes = [
-    { path: '/', name: 'Home', Component: Header, class: 'house' },
-    { path: '/showcase', name: 'Showcase', Component: Portfolio, class: 'gallery' }
-]
+const Menu: React.FC = () => {
+  const [activeSection, setActiveSection] = useState('');
 
-const Menu: React.FC = (props) => {
-    const[openMenu, toggleOpenMenu] = useState(false);
+  useEffect(() => {
+    const handleScroll = () => {
+      const headerHeight = (document.getElementById('header') as HTMLElement)?.offsetHeight || 0;
+      const divs = document.querySelectorAll('div[id^="blog"], div[id^="about"], div[id^="experience"], div[id^="featured"]');
 
-    return (
-        <Router basename="/portfolio" >
-            <>
-                <nav role="navigation" aria-label="main navigation">
-                    <div className="nav-container">
-                        <div className="navbar-brand">
-                            <a className="navbar-item white light" href="#">
-                                <img src={logo}></img>
-                            </a>
-                        </div>
-                        <div className="desktop-nav">
-                            <ul className="menu">
-                                <li className="navbar-item"><a href="#home">Home</a></li>
-                                {/* <li className="navbar-item"><a href="#about">About</a></li> */}
-                                <li className="navbar-item"><a href="#about">About</a></li>
-                                <li className="navbar-item"><a href="#featured">Portfolio</a></li>
-                                <li className="navbar-item"><a href="#blog">Blog</a></li>
-                            </ul>
-                        </div>
-      
+      divs.forEach((div) => {
+        const top = (div as HTMLElement).offsetTop - headerHeight;
+        const height = (div as HTMLElement).offsetHeight;
+        const divId = div.getAttribute('id');
 
-                        <div className="mobile-nav" onClick={() => {
-                                toggleOpenMenu(true);
-                            }}>
-                            <div className="navbar-brand">
-                                <i className="fas fa-bars"></i>
-                            </div>
-                            <div className="navbar-menu" id="mobileNav">
-                             <i className="fas fa-times"></i>
-                                <ul className="menu">
-                                <li><a href="#home">Home</a></li>
-                                {/* <li><a href="#about">About</a></li> */}
-                                <li><a href="#about">About</a></li>
-                                <li><a href="#featured">Portfolio</a></li>
-                                <li><a href="#blog">Blog</a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </nav>
-                <section>
-                    {routes.map(({ path, Component }) => (
-                        <Route key={path} exact path={path}>
-                            {({ match }) => (
-                                <CSSTransition
-                                    in={match != null}
-                                    timeout={300}
-                                    classNames="page"
-                                    unmountOnExit
-                                >
-                                    <div className="page">
-                                        <Component />
-                                    </div>
-                                </CSSTransition>
-                            )}
-                        </Route>
-                    ))}
-                </section>
-                <footer>
-                    <div className="copyright">© {(new Date().getFullYear())} Highsmith Codes. All rights reserved.</div>
-                    <ul className="contact text-center">
-                        <li>
-                            <a href="https://github.com/highsmithcodes" target="_blank" className="d-flex-row">
-                                <i className="fab fa-github"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="mailto: ezrahighsmith@gmail.com" target="_blank" className="d-flex-row">
-                                <i className="fa-solid fa-envelope"></i>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://www.linkedin.com/in/veronica-highsmith-07a04787/" target="_blank" className="d-flex-row">
-                                <i className="fa-brands fa-linkedin"></i>
-                            </a>
-                        </li>
+        if (window.pageYOffset >= top && window.pageYOffset < top + height) {
+          setActiveSection(divId || '');
+        }
+      });
+    };
 
-                    </ul>
-                </footer>
-            </>
-        </Router >
+    window.addEventListener('scroll', handleScroll);
+    handleScroll(); // Check active section on initial render
 
-    );
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+
+  const scrollToSection = (sectionId: string) => {
+    const section = document.getElementById(sectionId);
+    if (section) {
+      const headerHeight = (document.getElementById('header') as HTMLElement)?.offsetHeight || 0;
+      const top = section.offsetTop - headerHeight;
+      window.scrollTo({
+        top,
+        behavior: 'smooth',
+      });
+    }
+  };
+
+  const navItems = [
+    // { path: 'home', name: 'Home' },
+    { path: 'about', name: 'About' },
+    { path: 'experience', name: 'Experience' },
+    { path: 'featured', name: 'Projects' },
+    { path: 'blog', name: 'Blog' },
+  ];
+  return (
+    <Router basename="/portfolio">
+      <nav className="nav-container" style={{ display: 'flex', justifyContent : 'center', alignItems: 'start', flexDirection: 'column' }}>
+        <div style={{ display: 'flex', justifyContent : 'center', alignItems: 'start', flexDirection: 'column', textAlign: 'left' }}>
+          <h1 className='white'>Ezra Highsmith<br />
+              <span>Front-End & Full Stack Developer</span>
+          </h1>
+          <div style={{ marginTop: '20px', marginBottom: '20px', display: 'flex', flexDirection: 'row', alignItems: 'center' }}>
+              <ul className="contact" style={{ display: 'flex', justifyContent : 'center', alignItems: 'start', flexDirection: 'row' }}>
+                  <li><a href="https://github.com/highsmithcodes" target="_blank"><i className="fab fa-github"></i></a></li>
+                  {/* <li><a href="https://codepen.io/highsmithcodes" target="_blank"><i className="fas fa-code"></i></a></li> */}
+                  <li><a href="mailto: ezrahighsmith@gmail.com" target="_blank"><i className="fa-solid fa-envelope"></i></a></li>
+                  <li><a href="https://www.linkedin.com/in/veronica-highsmith-07a04787/" target="_blank"><i className="fa-brands fa-linkedin"></i></a></li>
+                  
+              </ul>
+          </div>
+        </div>
+
+        <ul className="menu">
+          {navItems.map((item) => (
+            <li key={item.path} className={activeSection === item.path ? 'active' : ''}>
+              <NavLink
+                to={`#${item.path}`}
+                onClick={() => scrollToSection(item.path)}
+                activeClassName="active"
+                className='white'
+                exact
+              >
+                {item.name}
+              </NavLink>
+            </li>
+          ))}
+        </ul>
+      </nav>
+    </Router>
+  );
 }
 
 export default Menu;

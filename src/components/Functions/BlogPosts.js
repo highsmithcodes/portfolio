@@ -38,31 +38,28 @@ const Posts = () => {
   const sortedData = hardcodedData.sort((a, b) => new Date(b.date_added) - new Date(a.date_added));
 
   return (
-    <div className='posts' id="blog">
-                <div className="container">
-                    <div className="columns is-mobile">
-                        <div className="column is-three-quarters">
-                            <h2 className="text-left">Blog</h2>
-                            <div className='flex-row posts-inner'>
-                            {sortedData.map((post) => (
-                              <div className="column-is-third post" key={post.id}>
-                                <a href={`https://www.devweight.com/blog/${post.url}`} target="_blank" rel="noopener noreferrer">
-                                  <div class='meta'>{post.date_added}</div>
-                                  <h3 className='text-left'>{post.title}</h3>
-                                  <p>{post.description}</p>
-                                  <div className='tags'>
-                                    {post.tags.split(', ').map((tag) => (
-                                      <span key={tag} className='tag'>{tag}</span>
-                                    ))}
-                                  </div>
-                                </a>
-                              </div>
+    <div className='posts hero-body' id="blog">
+        <div className="container">
+    
+                    <div className='flex-row posts-inner'>
+                    {sortedData.map((post) => (
+                      <div className="column-is-third post" key={post.id}>
+                        <a href={`https://www.devweight.com/blog/${post.url}`} target="_blank" rel="noopener noreferrer">
+                          <div className='meta white'>{post.date_added}</div>
+                          <h3 className='text-left white'>{post.title}</h3>
+                          <p className='white'>{post.description}</p>
+                          <div className='tags'>
+                            {post.tags.split(', ').map((tag) => (
+                              <span key={tag} className='tag'>{tag}</span>
                             ))}
                           </div>
-                        </div>
-                    </div>
-                </div>
+                        </a>
+                      </div>
+                    ))}
+        
             </div>
+        </div>
+    </div>
   
   );
 };

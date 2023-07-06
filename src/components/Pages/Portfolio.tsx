@@ -1,6 +1,5 @@
 import React from 'react';
 import '../../css/main.css';
-import Work from './Work';
 
 const Portfolio: React.FC = () => {
     return (
@@ -10,7 +9,6 @@ const Portfolio: React.FC = () => {
                     <div className="column is-three-quarters">
                         <h2 className="border-left">Recent Work</h2>
                         
-                        <Work />
                     </div>
                 </div>
             </div>
