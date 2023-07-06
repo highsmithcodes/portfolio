@@ -1241,11 +1241,10 @@ footer {
     //         align-items: flex-end;
     //     }
     // }
-
+    .nav-container{position: relative !important;padding: 100px 20px 0 20px!important;}
 }
 @media screen and (max-width: '1400px') {
     .headshot{height: auto !important;}
-    .nav-container{position: relative !important;padding: 100px 20px 0 20px!important;}
 }
 
 @media screen and (min-width: $medium) {

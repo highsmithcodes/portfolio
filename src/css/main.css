@@ -7484,14 +7484,14 @@ footer {
       flex-direction: column !important;
       display: flex; }
       #featured .card:nth-child(7) > div {
-        margin-left: 0; } }
-
-@media screen and (max-width: 1400px) {
-  .headshot {
-    height: auto !important; }
+        margin-left: 0; }
   .nav-container {
     position: relative !important;
     padding: 100px 20px 0 20px !important; } }
+
+@media screen and (max-width: 1400px) {
+  .headshot {
+    height: auto !important; } }
 
 @media screen and (max-width: 600px) {
   .columns .column {
