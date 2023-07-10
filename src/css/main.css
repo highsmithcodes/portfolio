@@ -6622,6 +6622,9 @@ a.navbar-item,
 ::selection {
   background: #062541; }
 
+.App {
+  overflow: hidden; }
+
 body {
   background: #0e0f10;
   font: 100% "Roboto", sans-serif;

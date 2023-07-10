@@ -17,8 +17,7 @@ const Experience: React.FC = () => {
                     <div className='column is-three-quarters'>
                         <p className='white text-left' style={{paddingTop:'0', fontSize:'20px'}}><a href="https://www.digitalmarketingcompany.com/" target="_blank" className='white'>Twelve Three Media <i className="fa-solid fa-arrow-up-right-from-square white" style={{fontSize: '14px', marginLeft: '5px'}}></i></a></p>
                         <p className='white text-left pt-0'>Lead Front-End Developer</p>
-                        <p className='white text-left lighter'>Spearhead the development of websites, incorporating new user-facing features and leverage innovative design principles to
-    enhance the overall user experience.</p>
+                        <p className='white text-left lighter'>As a leader in end-to-end development, scalability, testing, and design, I spearhead the creation of robust and user-friendly mobile and web applications. By incorporating new user-facing features, leveraging innovative design principles, and effectively utilizing data sets, I enhance the overall user experience. Focusing on creating engaging and interactive user interfaces that make data accessible and meaningful to users through thoughtful design, manipulation, and presentation.</p>
                         <ul className='tools text-left'>
                             <li>HTML/CSS/Sass</li>
                             <li>Javascript</li>
@@ -60,7 +59,7 @@ customer experience and consistent, strong, and unified online initiatives.</p>
                     <div className='column is-three-quarters'>
                         <p className='white text-left' style={{paddingTop:'0', fontSize:'20px'}}><a href="https://www.cision.com/" target="_blank" className='white'>Cision <i className="fa-solid fa-arrow-up-right-from-square white" style={{fontSize: '14px', marginLeft: '5px'}}></i></a></p>
                         <p className='white text-left pt-0'>Front-End Developer</p>
-                        <p className='white text-left lighter'>Constructed fully responsive and AA compliant client websites within a custom CMS platform.</p>
+                        <p className='white text-left lighter'>Responsible for developing, testing, and designing robust and user-friendly AA compliant mobile and web applications, ensuring seamless functionality and an optimal user experience across multiple platforms.</p>
                         <ul className='tools text-left'>
                             <li>HTML/CSS/Sass</li>
                             <li>Javascript</li>

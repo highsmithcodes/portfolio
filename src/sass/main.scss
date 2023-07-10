@@ -61,6 +61,9 @@ $medium: 768px;
 ::selection {
     background: #062541;
 }
+.App{
+    overflow:hidden;
+}
 body {
     // background: linear-gradient(180deg, $theme-blue 0%, $theme-black 100%);
     background: #0e0f10;
