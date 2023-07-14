@@ -9,8 +9,7 @@ const About: React.FC = () => {
         <div className="hero-body" id="about">
             <div className="container">
                 <div  style={{ display: 'flex', flexDirection: 'column',justifyContent : 'start', alignItems: 'start', textAlign: 'left' }}>
-                        <p className='light white'>Hey! My name is Ezra, 
-                        I'm an accomplished Front-End Developer with over <span style={{color:"#fff", fontWeight: 'bold'}}>seven 
+                        <p className='light white'>Hey! I'm an accomplished Front-End Developer with over <span style={{color:"#fff", fontWeight: 'bold'}}>seven 
                         years</span> of experience, specializing in creating exceptional web experiences. With a deep understanding of JavaScript, CSS, and HTML, I've successfully delivered numerous high-quality projects, ensuring exceptional outcomes every step of the way. 
                         </p>
                         <p className='light white'>My expertise lies in React and end-to-end product development, 

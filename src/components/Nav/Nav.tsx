@@ -51,14 +51,14 @@ const Menu: React.FC = () => {
     <Router basename="/portfolio">
       <nav className="nav-container" style={{ display: 'flex', justifyContent : 'center', alignItems: 'start', flexDirection: 'column' }}>
         <div style={{ display: 'flex', justifyContent : 'center', alignItems: 'start', flexDirection: 'column', textAlign: 'left' }}>
-          <h1 className='white'>Ezra Highsmith<br />
+          <h1 className='white'>Highsmith<br />
               <span>Front-End & Full Stack Developer</span>
           </h1>
           <div style={{ marginTop: '20px', marginBottom: '20px', display: 'flex', flexDirection: 'row', alignItems: 'center' }}>
               <ul className="contact" style={{ display: 'flex', justifyContent : 'center', alignItems: 'start', flexDirection: 'row' }}>
                   <li><a href="https://github.com/highsmithcodes" target="_blank"><i className="fab fa-github"></i></a></li>
                   {/* <li><a href="https://codepen.io/highsmithcodes" target="_blank"><i className="fas fa-code"></i></a></li> */}
-                  <li><a href="mailto: ezrahighsmith@gmail.com" target="_blank"><i className="fa-solid fa-envelope"></i></a></li>
+                  <li><a href="mailto: veehighsmith@gmail.com" target="_blank"><i className="fa-solid fa-envelope"></i></a></li>
                   <li><a href="https://www.linkedin.com/in/veronica-highsmith-07a04787/" target="_blank"><i className="fa-brands fa-linkedin"></i></a></li>
                   
               </ul>

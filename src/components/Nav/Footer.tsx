@@ -22,7 +22,7 @@ const Footer: React.FC = (props) => {
               </a>
             </li>
             <li>
-              <a href="mailto: ezrahighsmith@gmail.com" target="_blank" className="d-flex-row">
+              <a href="mailto: veehighsmith@gmail.com" target="_blank" className="d-flex-row">
                 <i className="fa-solid fa-envelope"></i>
               </a>
             </li>
