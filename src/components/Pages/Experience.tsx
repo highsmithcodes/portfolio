@@ -14,10 +14,11 @@ const Experience: React.FC = () => {
                             2020 - Present
                         </span>
                     </div>
-                    <div className='column is-three-quarters'>
+                    <div className='column is-three-quarters pt-0'>
                         <p className='white text-left' style={{paddingTop:'0', fontSize:'20px'}}><a href="https://www.digitalmarketingcompany.com/" target="_blank" className='white'>Twelve Three Media <i className="fa-solid fa-arrow-up-right-from-square white" style={{fontSize: '14px', marginLeft: '5px'}}></i></a></p>
                         <p className='white text-left pt-0'>Lead Front-End Developer</p>
-                        <p className='white text-left lighter'>As a leader in end-to-end development, scalability, testing, and design, I spearhead the creation of robust and user-friendly mobile and web applications. By incorporating new user-facing features, leveraging innovative design principles, and effectively utilizing data sets. Focusing on creating engaging and interactive user interfaces that make data accessible and meaningful to users through thoughtful design, manipulation, and presentation.</p>
+                        <p className='white text-left lighter'>
+                        As a Lead Front-End Developer, I spearhead website development, crafting themes, and implementing dynamic components with a mobile-first design approach. I collaborate closely with product managers and designers, optimize site speed, and write efficient code to ensure high-performance applications and seamless integration of client e-commerce products and data.</p>
                         <ul className='tools text-left'>
                             <li>HTML/CSS/Sass</li>
                             <li>Javascript</li>
@@ -35,11 +36,10 @@ const Experience: React.FC = () => {
                             2019 - 2020
                         </span>
                     </div>
-                    <div className='column is-three-quarters'>
+                    <div className='column is-three-quarters pt-0'>
                         <p className='white text-left' style={{paddingTop:'0', fontSize:'20px'}}><a href="https://mjbizdaily.com/" target="_blank" className='white'>MJBiz Daily <i className="fa-solid fa-arrow-up-right-from-square white" style={{fontSize: '14px', marginLeft: '5px'}}></i></a></p>
                         <p className='white text-left pt-0'>Front-End Developer</p>
-                        <p className='white text-left lighter'>Developed clean and thoughtful designs on multiple company websites and online/mobile environments, ensuring a positive
-customer experience and consistent, strong, and unified online initiatives.</p>
+                        <p className='white text-left lighter'>Created clean and thoughtful designs for various websites and online environments, ensuring a seamless and consistent user experience. I strategically analyzed customer journeys within gated subscription-based websites, collaborated with cross-functional teams, and incorporated modern technologies like Sass/React to enhance site engagement and drive product improvement.</p>
                         <ul className='tools text-left'>
                             <li>HTML/CSS/Sass</li>
                             <li>Javascript</li>
@@ -56,10 +56,10 @@ customer experience and consistent, strong, and unified online initiatives.</p>
                             2017 - 2019
                         </span>
                     </div>
-                    <div className='column is-three-quarters'>
+                    <div className='column is-three-quarters pt-0'>
                         <p className='white text-left' style={{paddingTop:'0', fontSize:'20px'}}><a href="https://www.cision.com/" target="_blank" className='white'>Cision <i className="fa-solid fa-arrow-up-right-from-square white" style={{fontSize: '14px', marginLeft: '5px'}}></i></a></p>
                         <p className='white text-left pt-0'>Front-End Developer</p>
-                        <p className='white text-left lighter'>Responsible for developing, testing, and designing robust and user-friendly AA compliant mobile and web applications, ensuring seamless functionality and an optimal user experience across multiple platforms.</p>
+                        <p className='white text-left lighter'>Responsible for developing multiple client websites, meticulously tailored to unique brand identities and business needs, ensuring high-quality AA compliant and responsive user experiences. By building reusable components and in-house templates, I optimized development processes for greater efficiency.</p>
                         <ul className='tools text-left'>
                             <li>HTML/CSS/Sass</li>
                             <li>Javascript</li>
@@ -76,10 +76,10 @@ customer experience and consistent, strong, and unified online initiatives.</p>
                             2016 - 2017
                         </span>
                     </div>
-                    <div className='column is-three-quarters'>
+                    <div className='column is-three-quarters pt-0'>
                         <p className='white text-left' style={{paddingTop:'0', fontSize:'20px'}}><a href="https://fineartprinting.la/" target="_blank" className='white'>Church of Merch <i className="fa-solid fa-arrow-up-right-from-square white" style={{fontSize: '14px', marginLeft: '5px'}}></i></a></p>
                         <p className='white text-left pt-0'>Developer</p>
-                        <p className='white text-left lighter'>Designed and developed responsive e-commerce sites for clients within a custom CMS platform</p>
+                        <p className='white text-left lighter'>Created captivating and responsive e-commerce sites, tailored to diverse clients' requirements. Developed reusable code and templates that enhance front-end performance. Proactively managed established codebases and explored innovative frameworks to continually improve and elevate existing sites.</p>
                         <ul className='tools text-left'>
                             <li>HTML/CSS</li>
                             <li>Javascript</li>
@@ -90,7 +90,7 @@ customer experience and consistent, strong, and unified online initiatives.</p>
                 </div>
                 <div className="columns">
                     <div className='column is-one-quarter text-left'>
-                        <a className="white" target="_blank" href="https://drive.google.com/file/d/1_rjuh6OFNdgEmDztp9oAiGznmZk5qhs3/view?usp=sharing">View Full Resume <i className="fa-solid fa-arrow-up-right-from-square white" style={{fontSize: '14px', marginLeft: '5px'}}></i></a> 
+                        <a className="white" target="_blank" href="https://drive.google.com/file/d/1OFdJdp7wNZBW6e768Awquey49Jfj6bZK/view?usp=sharing">View Full Resume <i className="fa-solid fa-arrow-up-right-from-square white" style={{fontSize: '14px', marginLeft: '5px'}}></i></a> 
                     </div>
                     <div className='column is-three-quarters'></div>
                 </div>

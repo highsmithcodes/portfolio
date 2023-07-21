@@ -51,7 +51,7 @@ const Menu: React.FC = () => {
     <Router basename="/portfolio">
       <nav className="nav-container" style={{ display: 'flex', justifyContent : 'center', alignItems: 'start', flexDirection: 'column' }}>
         <div style={{ display: 'flex', justifyContent : 'center', alignItems: 'start', flexDirection: 'column', textAlign: 'left' }}>
-          <h1 className='white'>Highsmith<br />
+          <h1 className='white'>Highsmith Codes<br />
               <span>Front-End & Full Stack Developer</span>
           </h1>
           <div style={{ marginTop: '20px', marginBottom: '20px', display: 'flex', flexDirection: 'row', alignItems: 'center' }}>
