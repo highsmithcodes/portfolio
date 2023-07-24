@@ -10,7 +10,7 @@ const Experience: React.FC = () => {
             <div className="container">
                 <div className="columns box-hover">
                     <div className='column is-one-quarter text-left'>
-                        <span className='date white'>
+                        <span className='date grey'>
                             2020 - Present
                         </span>
                     </div>
@@ -32,7 +32,7 @@ const Experience: React.FC = () => {
                 </div>
                 <div className="columns box-hover">
                     <div className='column is-one-quarter text-left'>
-                        <span className='date white'>
+                        <span className='date grey'>
                             2019 - 2020
                         </span>
                     </div>
@@ -52,7 +52,7 @@ const Experience: React.FC = () => {
                 </div>
                 <div className="columns box-hover">
                     <div className='column is-one-quarter text-left'>
-                        <span className='date white'>
+                        <span className='date grey'>
                             2017 - 2019
                         </span>
                     </div>
@@ -72,7 +72,7 @@ const Experience: React.FC = () => {
                 </div>
                 <div className="columns box-hover">
                     <div className='column is-one-quarter text-left'>
-                        <span className='date white'>
+                        <span className='date grey'>
                             2016 - 2017
                         </span>
                     </div>

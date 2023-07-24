@@ -20,10 +20,12 @@ const Layout: React.FC = () => {
                         <Menu />
                     </div>
                     <div className="column is-two-thirds">
+                        <div className='main-dashboard'>
                         <About />
                         <Experience />
                         <Featured />
                         <Contact />
+                        </div>
                         <Footer />
                     </div>
                 </div>

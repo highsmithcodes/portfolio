@@ -49,9 +49,9 @@ const Menu: React.FC = () => {
   ];
   return (
     <Router basename="/portfolio">
-      <nav className="nav-container" style={{ display: 'flex', justifyContent : 'center', alignItems: 'start', flexDirection: 'column' }}>
+      <nav className="nav-container" style={{ display: 'flex', justifyContent : 'start', alignItems: 'start', flexDirection: 'column', padding: '120px 10px 0 10px' }}>
         <div style={{ display: 'flex', justifyContent : 'center', alignItems: 'start', flexDirection: 'column', textAlign: 'left' }}>
-          <h1 className='white'>Highsmith Codes<br />
+          <h1 className='white'>Veronica Highsmith<br />
               <span>Front-End & Full Stack Developer</span>
           </h1>
           <div style={{ marginTop: '20px', marginBottom: '20px', display: 'flex', flexDirection: 'row', alignItems: 'center' }}>
