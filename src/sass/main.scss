@@ -40,6 +40,7 @@ $theme-head-foot: #000;
 // Sizes
 $small: 600px;
 $medium: 768px;
+$large: 1400px;
 
 @function get-dash-value($radius, $percentage) {
     // Using $radius, calculate circumference.
@@ -1266,8 +1267,9 @@ footer {
     // }
     .nav-container{position: relative !important;padding: 100px 20px 0 20px!important;}
 }
-@media screen and (max-width: '1400px') {
+@media screen and (max-width: $large) {
     .headshot{height: auto !important;}
+    body h1 {font-size: 32px;}
 }
 
 @media screen and (min-width: $medium) {
