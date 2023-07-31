@@ -90,7 +90,7 @@ const Experience: React.FC = () => {
                 </div>
                 <div className="columns">
                     <div className='column is-one-quarter text-left'>
-                        <a className="white" target="_blank" href="https://drive.google.com/file/d/1OFdJdp7wNZBW6e768Awquey49Jfj6bZK/view?usp=sharing">View Full Resume <i className="fa-solid fa-arrow-up-right-from-square white" style={{fontSize: '14px', marginLeft: '5px'}}></i></a> 
+                        <a className="white" target="_blank" href="https://drive.google.com/file/d/1POPlcDZJddOHGBcukxBdBnaoeMbM_67G/view?usp=sharing">View Full Resume <i className="fa-solid fa-arrow-up-right-from-square white" style={{fontSize: '14px', marginLeft: '5px'}}></i></a> 
                     </div>
                     <div className='column is-three-quarters'></div>
                 </div>
