@@ -1103,7 +1103,13 @@ text.ContributionCalendar-label{font-size: 10px;}
         color:#fff;
     }
 }
-
+.columns.box-hover .fa-solid, #featured .card.columns .fa-solid{
+    transition: .5s ease-in-out
+}
+.columns.box-hover:hover .fa-solid, #featured .card.columns:hover .fa-solid{
+    transform: translate3d(3px, -3px, 0px);
+    color: #b2dce8 !important;
+}
 
 footer {
     padding: 10px;
@@ -1277,6 +1283,16 @@ footer {
 
 
 @media screen and (max-width: $small) {
+    body .nav-container{
+        max-width:100%;
+    }
+    .nav-container h1 {
+        line-height: 1.2;
+    }
+    #about {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
     .columns {
         .column {
             flex: 0 0 100%;
