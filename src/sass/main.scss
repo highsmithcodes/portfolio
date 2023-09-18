@@ -109,8 +109,8 @@ body {
     }
     .cursor-box {
         position: fixed;
-        width: 950px;
-        height: 950px;
+        width: 650px;
+        height: 650px;
         border-radius: 50%;
         pointer-events: none;
         z-index: 9999;
@@ -1276,6 +1276,7 @@ footer {
 @media screen and (max-width: $large) {
     .headshot{height: auto !important;}
     body h1 {font-size: 32px;}
+    .nav-container{padding: 65px 10px 0px !important;}
 }
 
 @media screen and (min-width: $medium) {

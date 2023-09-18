@@ -18,7 +18,7 @@ const Experience: React.FC = () => {
                         <p className='white text-left' style={{paddingTop:'0', fontSize:'20px'}}><a href="https://www.digitalmarketingcompany.com/" target="_blank" className='white'>Twelve Three Media <i className="fa-solid fa-arrow-up-right-from-square white" style={{fontSize: '14px', marginLeft: '5px'}}></i></a></p>
                         <p className='white text-left pt-0'>Lead Front-End Developer</p>
                         <p className='white text-left lighter'>
-                        As a Lead Front-End Developer, I spearhead website development, crafting themes, and implementing dynamic components with a mobile-first design approach. I collaborate closely with product managers and designers, optimize site speed, and write efficient code to ensure high-performance applications and seamless integration of client e-commerce products and data.</p>
+                        In my role as a Lead Front-End Developer, I take charge of website development, emphasizing mobile-first design principles while creating themes and implementing dynamic components. My collaboration with product managers and designers ensures optimal site speed and the creation of efficient code for high-performance applications. </p>
                         <ul className='tools text-left'>
                             <li>HTML/CSS/Sass</li>
                             <li>Javascript</li>
@@ -39,7 +39,7 @@ const Experience: React.FC = () => {
                     <div className='column is-three-quarters pt-0'>
                         <p className='white text-left' style={{paddingTop:'0', fontSize:'20px'}}><a href="https://mjbizdaily.com/" target="_blank" className='white'>MJBiz Daily <i className="fa-solid fa-arrow-up-right-from-square white" style={{fontSize: '14px', marginLeft: '5px'}}></i></a></p>
                         <p className='white text-left pt-0'>Front-End Developer</p>
-                        <p className='white text-left lighter'>Created clean and thoughtful designs for various websites and online environments, ensuring a seamless and consistent user experience. I strategically analyzed customer journeys within gated subscription-based websites, collaborated with cross-functional teams, and incorporated modern technologies like Sass/React to enhance site engagement and drive product improvement.</p>
+                        <p className='white text-left lighter'>Created, modified, and maintained mutliple responsive websites. Played a key role in the creation, delivery, maintenance, and evolution of digital experiences. I managed and maintained databases, hosting, and security, integrated e-commerce platforms with various 3rd party systems, and built full e-commerce sites from start to finish. I also introduced new front-end technologies and participated in daily scrum meetings as part of an agile sprint cycle.</p>
                         <ul className='tools text-left'>
                             <li>HTML/CSS/Sass</li>
                             <li>Javascript</li>
@@ -90,7 +90,7 @@ const Experience: React.FC = () => {
                 </div>
                 <div className="columns">
                     <div className='column is-one-quarter text-left'>
-                        <a className="white" target="_blank" href="https://drive.google.com/file/d/1POPlcDZJddOHGBcukxBdBnaoeMbM_67G/view?usp=sharing">View Full Resume <i className="fa-solid fa-arrow-up-right-from-square white" style={{fontSize: '14px', marginLeft: '5px'}}></i></a> 
+                        <a className="white" target="_blank" href="https://drive.google.com/file/d/1iNeISAmUs8R17r8IviCojSHYG_aTRu1G/view?usp=sharing">View Full Resume <i className="fa-solid fa-arrow-up-right-from-square white" style={{fontSize: '14px', marginLeft: '5px'}}></i></a> 
                     </div>
                     <div className='column is-three-quarters'></div>
                 </div>

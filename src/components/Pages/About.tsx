@@ -9,8 +9,8 @@ const About: React.FC = () => {
         <div className="hero-body" id="about">
             <div className="container">
                 <div  style={{ display: 'flex', flexDirection: 'column',justifyContent : 'start', alignItems: 'start', textAlign: 'left' }}>
-                        <p className='light white'>Hey! I'm an accomplished Front-End Developer with over <span style={{color:"#fff", fontWeight: 'bold'}}>seven 
-                        years</span> of experience, specializing in creating exceptional web experiences. With a deep understanding of JavaScript, CSS, and HTML, I've successfully delivered numerous high-quality projects, ensuring exceptional outcomes every step of the way. 
+                        <p className='light white'>Hey! I'm an accomplished Front-End Engineer with over <span style={{color:"#fff", fontWeight: 'bold'}}>eight 
+                        years</span> of experience, specializing in creating exceptional web experiences. I've successfully delivered numerous high-quality projects, ensuring exceptional outcomes every step of the way. 
                         </p>
                         <p className='light white'>My expertise lies in React and end-to-end product development, 
                         allowing me to bring innovative ideas to life. 
@@ -26,10 +26,14 @@ const About: React.FC = () => {
                             {/* <li><a href="https://codepen.io/highsmithcodes" target="_blank"><i className="fas fa-code"></i></a></li> */}
                             <li><i className="fab fa-sass"></i></li>
                             <li><i className="fab fa-node"></i></li>
+                           
+                            <li><i className="fa-brands fa-git-alt"></i></li>
+                            <li><i className="fab fa-shopify"></i></li>
+                            <li><i className="fab fa-wordpress"></i></li>
                             <li><i className="fa-brands fa-aws"></i></li>
                             <li><i className="fa-brands fa-npm"></i></li>
                             <li><i className="fa-brands fa-python"></i></li>
-                            <li><i className="fa-brands fa-git-alt"></i></li>
+                            
                             <li><i className="fa-solid fa-database"></i></li>                              
                         </ul>
                         {/* <a href="https://github.com/highsmithcodes" target="_blank">

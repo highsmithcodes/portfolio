@@ -49,10 +49,10 @@ const Menu: React.FC = () => {
   ];
   return (
     <Router basename="/portfolio">
-      <nav className="nav-container" style={{ display: 'flex', justifyContent : 'start', alignItems: 'start', flexDirection: 'column', padding: '120px 10px 0 10px' }}>
+      <nav className="nav-container" style={{ display: 'flex', justifyContent : 'start', alignItems: 'start', flexDirection: 'column', padding: '86px 10px 0 10px' }}>
         <div style={{ display: 'flex', justifyContent : 'center', alignItems: 'start', flexDirection: 'column', textAlign: 'left' }}>
           <h1 className='white'>Veronica Highsmith<br />
-              <span>Front-End & Full Stack Developer</span>
+              <span>Software Engineer, Front-End</span>
           </h1>
           <div style={{ marginTop: '20px', marginBottom: '20px', display: 'flex', flexDirection: 'row', alignItems: 'center' }}>
               <ul className="contact" style={{ display: 'flex', justifyContent : 'center', alignItems: 'start', flexDirection: 'row' }}>
