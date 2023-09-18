@@ -48,8 +48,8 @@ const Menu: React.FC = () => {
     { path: 'blog', name: 'Blog' },
   ];
   return (
-    <Router basename="/portfolio">
-      <nav className="nav-container" style={{ display: 'flex', justifyContent : 'start', alignItems: 'start', flexDirection: 'column', padding: '86px 10px 0 10px' }}>
+    <Router>
+      <nav className="nav-container" style={{ display: 'flex', justifyContent : 'start', alignItems: 'start', flexDirection: 'column', padding: '55px 10px 0 10px' }}>
         <div style={{ display: 'flex', justifyContent : 'center', alignItems: 'start', flexDirection: 'column', textAlign: 'left' }}>
           <h1 className='white'>Veronica Highsmith<br />
               <span>Software Engineer, Front-End</span>
