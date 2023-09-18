@@ -18,7 +18,8 @@ const Experience: React.FC = () => {
                         <p className='white text-left' style={{paddingTop:'0', fontSize:'20px'}}><a href="https://www.digitalmarketingcompany.com/" target="_blank" className='white'>Twelve Three Media <i className="fa-solid fa-arrow-up-right-from-square white" style={{fontSize: '14px', marginLeft: '5px'}}></i></a></p>
                         <p className='white text-left pt-0'>Lead Front-End Developer</p>
                         <p className='white text-left lighter'>
-                        In my role as a Lead Front-End Developer, I take charge of website development, emphasizing mobile-first design principles while creating themes and implementing dynamic components. My collaboration with product managers and designers ensures optimal site speed and the creation of efficient code for high-performance applications. </p>
+                        Spearhead the development of websites, building themes, implementing dynamic/customizable components, incorporating new user-facing features and leverage a mobile-first design approach to enhance the overall user experience. Collaborate closely with product managers, designers, and operations teams to create intuitive user experiences, optimizing
+site speed scores, and reduce page abandonment rates.</p>
                         <ul className='tools text-left'>
                             <li>HTML/CSS/Sass</li>
                             <li>Javascript</li>
