@@ -18,3 +18,4 @@ Welcome to my Portfolio
 ![pup-shop](https://github.com/highsmithcodes/portfolio/assets/17016293/bb40741f-844d-4c97-8d69-8e9b050e67c0)
 ![seymour](https://github.com/highsmithcodes/portfolio/assets/17016293/545d95ee-cea1-440e-91be-ea315f92d7d0)
 ![basementbrew](https://github.com/highsmithcodes/portfolio/assets/17016293/f0221283-cb36-49c4-b75e-3701430592bc)
+![reenergize](https://github.com/highsmithcodes/portfolio/assets/17016293/a1004333-818e-46a6-a1b3-42c676ddfe58)
