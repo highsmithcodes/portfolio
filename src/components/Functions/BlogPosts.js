@@ -44,12 +44,12 @@ const Posts = () => {
                     <div className='flex-col posts-inner'>
                     {sortedData.map((post) => (
                       <div className='columns' style={{marginBottom: '40px'}}>
-                      <div className="card-description column is-one-quarter text-left pt-0">
+                      {/* <div className="card-description column is-one-quarter text-left pt-0">
                       <a href={`https://www.devweight.com/blog/${post.url}`} target="_blank" rel="noopener noreferrer">
                         <img src={post.image} />
                         </a>
-                      </div>
-                      <div className="column is-three-quarters post pt-0" key={post.id}>
+                      </div> */}
+                      <div className="column is-full post pt-0" key={post.id}>
                         <a href={`https://www.devweight.com/blog/${post.url}`} target="_blank" rel="noopener noreferrer">
                           <div className='meta white pb-0'>{post.date_added}</div>
                           <h3 className='text-left white'>{post.title}</h3>

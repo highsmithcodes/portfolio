@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { BrowserRouter as Router, NavLink } from 'react-router-dom';
+import logo from '../../img/h-blue.png'
 
 const Menu: React.FC = () => {
   const [activeSection, setActiveSection] = useState('');
@@ -49,22 +50,8 @@ const Menu: React.FC = () => {
   ];
   return (
     <Router>
-      <nav className="nav-container" style={{ display: 'flex', justifyContent : 'start', alignItems: 'start', flexDirection: 'column', padding: '55px 10px 0 10px' }}>
-        <div style={{ display: 'flex', justifyContent : 'center', alignItems: 'start', flexDirection: 'column', textAlign: 'left' }}>
-          <h1 className='white'>Veronica Highsmith<br />
-              <span>Software Engineer, Front-End</span>
-          </h1>
-          <div style={{ marginTop: '20px', marginBottom: '20px', display: 'flex', flexDirection: 'row', alignItems: 'center' }}>
-              <ul className="contact" style={{ display: 'flex', justifyContent : 'center', alignItems: 'start', flexDirection: 'row' }}>
-                  <li><a href="https://github.com/highsmithcodes" target="_blank"><i className="fab fa-github"></i></a></li>
-                  {/* <li><a href="https://codepen.io/highsmithcodes" target="_blank"><i className="fas fa-code"></i></a></li> */}
-                  <li><a href="mailto: veehighsmith@gmail.com" target="_blank"><i className="fa-solid fa-envelope"></i></a></li>
-                  <li><a href="https://www.linkedin.com/in/veronica-highsmith-07a04787/" target="_blank"><i className="fa-brands fa-linkedin"></i></a></li>
-                  
-              </ul>
-          </div>
-        </div>
-
+      <nav className="nav-container" style={{ display: 'flex', justifyContent : 'start', alignItems: 'end', flexDirection: 'column', padding: '55px 10px 0 10px' }}>
+        {/* <img src={logo} width={50} height={50} /> */}
         <ul className="menu">
           {navItems.map((item) => (
             <li key={item.path} className={activeSection === item.path ? 'active' : ''}>

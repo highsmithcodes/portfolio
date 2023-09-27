@@ -13,8 +13,8 @@ const Footer: React.FC = (props) => {
   return (
       <>
         <footer>
-          <div className="copyright">© {(new Date().getFullYear())} Highsmith Codes. All rights reserved.
-          </div>
+          {/* <div className="copyright">© {(new Date().getFullYear())} Highsmith Codes. All rights reserved.
+          </div> */}
           <ul className="contact text-center">
             <li>
               <a href="https://github.com/highsmithcodes" target="_blank" className="d-flex-row">
