@@ -19,3 +19,4 @@ Welcome to my Portfolio
 ![seymour](https://github.com/highsmithcodes/portfolio/assets/17016293/545d95ee-cea1-440e-91be-ea315f92d7d0)
 ![basementbrew](https://github.com/highsmithcodes/portfolio/assets/17016293/f0221283-cb36-49c4-b75e-3701430592bc)
 ![reenergize](https://github.com/highsmithcodes/portfolio/assets/17016293/a1004333-818e-46a6-a1b3-42c676ddfe58)
+![Screen Shot 2023-10-02 at 4 39 28 PM](https://github.com/highsmithcodes/portfolio/assets/17016293/252c766f-724c-49e9-b08c-270a46c1a25a)
