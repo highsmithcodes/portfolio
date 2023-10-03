@@ -6005,9 +6005,13 @@ body {
       object-fit: cover;
       max-height: auto;
       width: 100%;
-      filter: grayscale(1); }
+      filter: grayscale(1);
+      transition: .5s ease; }
+    body .hero-body .card.columns:hover img {
+      filter: none; }
     body .hero-body #featured {
-      padding: 20vh 0; }
+      padding: 20vh 0;
+      width: 100%; }
       body .hero-body #featured h2 {
         padding-bottom: 60px;
         margin-left: -12px; }
@@ -6438,7 +6442,8 @@ footer {
   .columns {
     margin-bottom: 40px !important; }
   #featured {
-    padding-top: 20px; }
+    padding-top: 20px;
+    overflow-x: hidden; }
     #featured .box {
       margin-top: 0px !important;
       display: flex !important;

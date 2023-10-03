@@ -785,10 +785,16 @@ body {
          
             width: 100%;
             filter: grayscale(1);
+            transition: .5s ease;
+        }
+        .card.columns:hover img {
+            filter: none;
         }
         // Featured Section
         #featured{
             padding:20vh 0;
+            width: 100%;
+
             h2{padding-bottom: 60px;margin-left: -12px;}
             .card{
                 margin-bottom:120px;
@@ -1397,7 +1403,8 @@ footer {
     }
     #featured{
         padding-top:20px;
-
+        overflow-x: hidden; 
+        
         .box{
             margin-top:0px !important;
             display: flex !important;

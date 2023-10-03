@@ -26,10 +26,11 @@ const About: React.FC = () => {
                         <p className='light white'>Hey! I'm a passionate Front-End Engineer with over <span style={{color:"#fff", fontWeight: 'bold'}}>eight 
                         years</span> of experience, specializing in creating exceptional web and mobile experiences.</p>
                         <p className='light white'>
-                        I enjoy crafting clean and intuitive user interfaces with modern front-end frameworks while also employing my skills in database management, API integration, and version control.
+                        I enjoy crafting clean and intuitive user interfaces with modern front-end frameworks while also employing my skills in database management, API integration, performance optimization and testing.
 
                         Explore my portfolio to learn more about my skills, expertise, and the projects 
                         that showcase my passion for quality front-end development.</p>
+
                         <ul className="stack" style={{ display: 'flex', flexDirection: 'row', justifyContent:'start'}}>
                             <li><i className="fa-brands fa-js"></i></li>
                             <li><i className="fab fa-react"></i></li>
