@@ -1,14 +1,12 @@
-import React from 'react';
-import '../../css/main.css';
-import Posts from '../Functions/BlogPosts';
+import React, { FC } from "react";
+import Posts from "../Functions/BlogPosts";
 
-const Contact: React.FC = () => {
-    return (
-        <>
-            <Posts/>
-
-        </>
-    );
-}
+const Contact: FC = () => {
+  return (
+    <>
+      <Posts />
+    </>
+  );
+};
 
 export default Contact;
